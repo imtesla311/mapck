@@ -1767,6 +1767,198 @@
           "mapNumber": 50
         }
       ]
+    },
+    "canada_provinces": {
+      "id": "canada_provinces",
+      "name": "Canada Provinces & Territories",
+      "entityLabel": "province or territory",
+      "mapImage": "maps/canada/canada_map.jpg",
+      "numberedMapImage": "maps/canada/canada_map.jpg",
+      "questionTypes": [
+        "numbered_region",
+        "capital",
+        "reverse_capital"
+      ],
+      "countries": [
+        {
+          "id": "ab",
+          "name": "Alberta",
+          "capital": "Edmonton",
+          "alternateNames": [
+            "Alberta",
+            "Province of Alberta"
+          ],
+          "alternateCapitals": [
+            "Edmonton"
+          ],
+          "mapNumber": 5
+        },
+        {
+          "id": "bc",
+          "name": "British Columbia",
+          "capital": "Victoria",
+          "alternateNames": [
+            "British Columbia",
+            "BC",
+            "B.C.",
+            "Province of British Columbia"
+          ],
+          "alternateCapitals": [
+            "Victoria"
+          ],
+          "mapNumber": 4
+        },
+        {
+          "id": "mb",
+          "name": "Manitoba",
+          "capital": "Winnipeg",
+          "alternateNames": [
+            "Manitoba",
+            "Province of Manitoba"
+          ],
+          "alternateCapitals": [
+            "Winnipeg"
+          ],
+          "mapNumber": 7
+        },
+        {
+          "id": "nb",
+          "name": "New Brunswick",
+          "capital": "Fredericton",
+          "alternateNames": [
+            "New Brunswick",
+            "Province of New Brunswick"
+          ],
+          "alternateCapitals": [
+            "Fredericton"
+          ],
+          "mapNumber": 12
+        },
+        {
+          "id": "nl",
+          "name": "Newfoundland and Labrador",
+          "capital": "St. John's",
+          "alternateNames": [
+            "Newfoundland and Labrador",
+            "Newfoundland",
+            "Province of Newfoundland and Labrador"
+          ],
+          "alternateCapitals": [
+            "St. John's",
+            "St Johns",
+            "Saint John's",
+            "Saint Johns"
+          ],
+          "mapNumber": 10
+        },
+        {
+          "id": "nt",
+          "name": "Northwest Territories",
+          "capital": "Yellowknife",
+          "alternateNames": [
+            "Northwest Territories",
+            "NWT"
+          ],
+          "alternateCapitals": [
+            "Yellowknife"
+          ],
+          "mapNumber": 2
+        },
+        {
+          "id": "ns",
+          "name": "Nova Scotia",
+          "capital": "Halifax",
+          "alternateNames": [
+            "Nova Scotia",
+            "Province of Nova Scotia"
+          ],
+          "alternateCapitals": [
+            "Halifax"
+          ],
+          "mapNumber": 11
+        },
+        {
+          "id": "nu",
+          "name": "Nunavut",
+          "capital": "Iqaluit",
+          "alternateNames": [
+            "Nunavut"
+          ],
+          "alternateCapitals": [
+            "Iqaluit"
+          ],
+          "mapNumber": 3
+        },
+        {
+          "id": "on",
+          "name": "Ontario",
+          "capital": "Toronto",
+          "alternateNames": [
+            "Ontario",
+            "Province of Ontario"
+          ],
+          "alternateCapitals": [
+            "Toronto"
+          ],
+          "mapNumber": 8
+        },
+        {
+          "id": "pe",
+          "name": "Prince Edward Island",
+          "capital": "Charlottetown",
+          "alternateNames": [
+            "Prince Edward Island",
+            "PEI",
+            "P.E.I."
+          ],
+          "alternateCapitals": [
+            "Charlottetown"
+          ],
+          "mapNumber": 13
+        },
+        {
+          "id": "qc",
+          "name": "Quebec",
+          "capital": "Quebec City",
+          "alternateNames": [
+            "Quebec",
+            "Québec",
+            "Province of Quebec",
+            "Province of Québec"
+          ],
+          "alternateCapitals": [
+            "Quebec City",
+            "Québec City"
+          ],
+          "mapNumber": 9
+        },
+        {
+          "id": "sk",
+          "name": "Saskatchewan",
+          "capital": "Regina",
+          "alternateNames": [
+            "Saskatchewan",
+            "Province of Saskatchewan"
+          ],
+          "alternateCapitals": [
+            "Regina"
+          ],
+          "mapNumber": 6
+        },
+        {
+          "id": "yt",
+          "name": "Yukon",
+          "capital": "Whitehorse",
+          "alternateNames": [
+            "Yukon",
+            "Yukon Territory"
+          ],
+          "alternateCapitals": [
+            "Whitehorse"
+          ],
+          "mapNumber": 1
+        }
+      ]
     }
   }
 }

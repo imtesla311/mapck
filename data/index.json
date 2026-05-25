@@ -11,6 +11,10 @@
     {
       "id": "us_states",
       "file": "regions/us_states.json"
+    },
+    {
+      "id": "canada_provinces",
+      "file": "regions/canada_provinces.json"
     }
   ]
 }
