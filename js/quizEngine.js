@@ -133,16 +133,16 @@ class QuizEngine {
     getQuestionImage(country, questionType, region) {
         const defaultImage = region ? region.mapImage : null;
 
+        if (country.questionImages && country.questionImages[questionType]) {
+            return country.questionImages[questionType];
+        }
+
         if (questionType === 'numbered_region' && region?.numberedMapImage) {
             return region.numberedMapImage;
         }
 
         if (questionType === 'pointed_country' && country.pointed_country) {
             return country.pointed_country;
-        }
-
-        if (country.questionImages && country.questionImages[questionType]) {
-            return country.questionImages[questionType];
         }
 
         return defaultImage;

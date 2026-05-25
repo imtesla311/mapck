@@ -1,0 +1,183 @@
+{
+  "id": "southeast_europe",
+  "name": "Southeast Europe",
+  "entityLabel": "country",
+  "mapImage": "maps/europe/southeast_europe.jpg",
+  "numberedMapImage": "maps/europe/southeast_europe.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "ba",
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "alternateNames": [
+        "Bosnia and Herzegovina"
+      ],
+      "alternateCapitals": [
+        "Sarajevo"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "me",
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "alternateNames": [
+        "Montenegro"
+      ],
+      "alternateCapitals": [
+        "Podgorica"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "al",
+      "name": "Albania",
+      "capital": "Tirana",
+      "alternateNames": [
+        "Albania"
+      ],
+      "alternateCapitals": [
+        "Tirana"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "mk",
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "alternateNames": [
+        "North Macedonia",
+        "Macedonia"
+      ],
+      "alternateCapitals": [
+        "Skopje"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "xk",
+      "name": "Kosovo",
+      "capital": "Pristina",
+      "alternateNames": [
+        "Kosovo"
+      ],
+      "alternateCapitals": [
+        "Pristina"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "rs",
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "alternateNames": [
+        "Serbia"
+      ],
+      "alternateCapitals": [
+        "Belgrade"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "ro",
+      "name": "Romania",
+      "capital": "Bucharest",
+      "alternateNames": [
+        "Romania"
+      ],
+      "alternateCapitals": [
+        "Bucharest"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "bg",
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "alternateNames": [
+        "Bulgaria"
+      ],
+      "alternateCapitals": [
+        "Sofia"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "gr",
+      "name": "Greece",
+      "capital": "Athens",
+      "alternateNames": [
+        "Greece"
+      ],
+      "alternateCapitals": [
+        "Athens"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "tr",
+      "name": "Turkey",
+      "capital": "Ankara",
+      "alternateNames": [
+        "Turkey"
+      ],
+      "alternateCapitals": [
+        "Ankara"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "cy",
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "alternateNames": [
+        "Cyprus"
+      ],
+      "alternateCapitals": [
+        "Nicosia"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "ge",
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "alternateNames": [
+        "Georgia"
+      ],
+      "alternateCapitals": [
+        "Tbilisi"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "am",
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "alternateNames": [
+        "Armenia"
+      ],
+      "alternateCapitals": [
+        "Yerevan"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "az",
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "alternateNames": [
+        "Azerbaijan"
+      ],
+      "alternateCapitals": [
+        "Baku"
+      ],
+      "mapNumber": 14
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "northwest_europe",
+  "name": "Northwest Europe",
+  "entityLabel": "country",
+  "mapImage": "maps/europe/northwest_europe.jpg",
+  "numberedMapImage": "maps/europe/northwest_europe.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "is",
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "alternateNames": [
+        "Iceland"
+      ],
+      "alternateCapitals": [
+        "Reykjavik"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "ie",
+      "name": "Ireland",
+      "capital": "Dublin",
+      "alternateNames": [
+        "Ireland"
+      ],
+      "alternateCapitals": [
+        "Dublin"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "gb",
+      "name": "United Kingdom",
+      "capital": "London",
+      "alternateNames": [
+        "United Kingdom",
+        "UK",
+        "Britain",
+        "Great Britain"
+      ],
+      "alternateCapitals": [
+        "London"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "pt",
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "alternateNames": [
+        "Portugal"
+      ],
+      "alternateCapitals": [
+        "Lisbon"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "es",
+      "name": "Spain",
+      "capital": "Madrid",
+      "alternateNames": [
+        "Spain"
+      ],
+      "alternateCapitals": [
+        "Madrid"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "ad",
+      "name": "Andorra",
+      "capital": "Andorra la Vella",
+      "alternateNames": [
+        "Andorra"
+      ],
+      "alternateCapitals": [
+        "Andorra la Vella"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "capital": "Paris",
+      "alternateNames": [
+        "France"
+      ],
+      "alternateCapitals": [
+        "Paris"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "be",
+      "name": "Belgium",
+      "capital": "Brussels",
+      "alternateNames": [
+        "Belgium"
+      ],
+      "alternateCapitals": [
+        "Brussels"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "nl",
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "alternateNames": [
+        "Netherlands"
+      ],
+      "alternateCapitals": [
+        "Amsterdam"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "lu",
+      "name": "Luxembourg",
+      "capital": "Luxembourg",
+      "alternateNames": [
+        "Luxembourg"
+      ],
+      "alternateCapitals": [
+        "Luxembourg"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "de",
+      "name": "Germany",
+      "capital": "Berlin",
+      "alternateNames": [
+        "Germany"
+      ],
+      "alternateCapitals": [
+        "Berlin"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "dk",
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "alternateNames": [
+        "Denmark"
+      ],
+      "alternateCapitals": [
+        "Copenhagen"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "no",
+      "name": "Norway",
+      "capital": "Oslo",
+      "alternateNames": [
+        "Norway"
+      ],
+      "alternateCapitals": [
+        "Oslo"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "se",
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "alternateNames": [
+        "Sweden"
+      ],
+      "alternateCapitals": [
+        "Stockholm"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "fi",
+      "name": "Finland",
+      "capital": "Helsinki",
+      "alternateNames": [
+        "Finland"
+      ],
+      "alternateCapitals": [
+        "Helsinki"
+      ],
+      "mapNumber": 15
+    }
+  ]
+}

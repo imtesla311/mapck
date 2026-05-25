@@ -1,0 +1,111 @@
+{
+  "id": "northeast_europe",
+  "name": "Northeast Europe",
+  "entityLabel": "country",
+  "mapImage": "maps/europe/northeast_europe.jpg",
+  "numberedMapImage": "maps/europe/northeast_europe.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "ee",
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "alternateNames": [
+        "Estonia"
+      ],
+      "alternateCapitals": [
+        "Tallinn"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "lv",
+      "name": "Latvia",
+      "capital": "Riga",
+      "alternateNames": [
+        "Latvia"
+      ],
+      "alternateCapitals": [
+        "Riga"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "lt",
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "alternateNames": [
+        "Lithuania"
+      ],
+      "alternateCapitals": [
+        "Vilnius"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "pl",
+      "name": "Poland",
+      "capital": "Warsaw",
+      "alternateNames": [
+        "Poland"
+      ],
+      "alternateCapitals": [
+        "Warsaw"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "by",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "alternateNames": [
+        "Belarus"
+      ],
+      "alternateCapitals": [
+        "Minsk"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "md",
+      "name": "Moldova",
+      "capital": "Chisinau",
+      "alternateNames": [
+        "Moldova"
+      ],
+      "alternateCapitals": [
+        "Chisinau"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "ua",
+      "name": "Ukraine",
+      "capital": "Kyiv",
+      "alternateNames": [
+        "Ukraine"
+      ],
+      "alternateCapitals": [
+        "Kyiv",
+        "Kiev"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "ru",
+      "name": "Russia",
+      "capital": "Moscow",
+      "alternateNames": [
+        "Russia"
+      ],
+      "alternateCapitals": [
+        "Moscow"
+      ],
+      "mapNumber": 8
+    }
+  ]
+}

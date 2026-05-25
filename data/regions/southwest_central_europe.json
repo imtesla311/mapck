@@ -1,0 +1,173 @@
+{
+  "id": "southwest_central_europe",
+  "name": "Southwest & Central Europe",
+  "entityLabel": "country",
+  "mapImage": "maps/europe/southwest_central_europe.jpg",
+  "numberedMapImage": "maps/europe/southwest_central_europe.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "cz",
+      "name": "Czechia",
+      "capital": "Prague",
+      "alternateNames": [
+        "Czechia",
+        "Czech Republic"
+      ],
+      "alternateCapitals": [
+        "Prague"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "sk",
+      "name": "Slovakia",
+      "capital": "Bratislava",
+      "alternateNames": [
+        "Slovakia"
+      ],
+      "alternateCapitals": [
+        "Bratislava"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "at",
+      "name": "Austria",
+      "capital": "Vienna",
+      "alternateNames": [
+        "Austria"
+      ],
+      "alternateCapitals": [
+        "Vienna"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "ch",
+      "name": "Switzerland",
+      "capital": "Bern",
+      "alternateNames": [
+        "Switzerland"
+      ],
+      "alternateCapitals": [
+        "Bern"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "li",
+      "name": "Liechtenstein",
+      "capital": "Vaduz",
+      "alternateNames": [
+        "Liechtenstein"
+      ],
+      "alternateCapitals": [
+        "Vaduz"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "mc",
+      "name": "Monaco",
+      "capital": "Monaco",
+      "alternateNames": [
+        "Monaco"
+      ],
+      "alternateCapitals": [
+        "Monaco"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "it",
+      "name": "Italy",
+      "capital": "Rome",
+      "alternateNames": [
+        "Italy"
+      ],
+      "alternateCapitals": [
+        "Rome"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "sm",
+      "name": "San Marino",
+      "capital": "San Marino",
+      "alternateNames": [
+        "San Marino"
+      ],
+      "alternateCapitals": [
+        "San Marino"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "va",
+      "name": "Vatican City",
+      "capital": "Vatican City",
+      "alternateNames": [
+        "Vatican City",
+        "Holy See",
+        "Vatican"
+      ],
+      "alternateCapitals": [
+        "Vatican City"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "si",
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "alternateNames": [
+        "Slovenia"
+      ],
+      "alternateCapitals": [
+        "Ljubljana"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "hr",
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "alternateNames": [
+        "Croatia"
+      ],
+      "alternateCapitals": [
+        "Zagreb"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "hu",
+      "name": "Hungary",
+      "capital": "Budapest",
+      "alternateNames": [
+        "Hungary"
+      ],
+      "alternateCapitals": [
+        "Budapest"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "mt",
+      "name": "Malta",
+      "capital": "Valletta",
+      "alternateNames": [
+        "Malta"
+      ],
+      "alternateCapitals": [
+        "Valletta"
+      ],
+      "mapNumber": 13
+    }
+  ]
+}

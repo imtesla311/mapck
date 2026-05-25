@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europe SVG Debug</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+            color: #111827;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(700px, 1fr) 360px;
+            min-height: 100vh;
+        }
+
+        .canvas-wrap {
+            overflow: auto;
+            padding: 16px;
+        }
+
+        .panel {
+            border-left: 1px solid #d1d5db;
+            background: white;
+            padding: 16px;
+            overflow: auto;
+        }
+
+        svg {
+            width: 100%;
+            height: auto;
+            background: white;
+            border: 1px solid #d1d5db;
+        }
+
+        .label {
+            font: 18px/1 Arial, sans-serif;
+            fill: #111827;
+            text-anchor: middle;
+            pointer-events: none;
+        }
+
+        .label-bg {
+            fill: #fef3c7;
+            stroke: #92400e;
+            stroke-width: 0.5;
+        }
+
+        .country {
+            fill: #d1d5db;
+            stroke: #6b7280;
+            stroke-width: 1.4;
+        }
+
+        .country:hover {
+            fill: #93c5fd;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        th, td {
+            padding: 4px 6px;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="canvas-wrap">
+            <div id="svg-host"></div>
+        </div>
+        <div class="panel">
+            <h1>Europe Path Debug</h1>
+            <p>Path IDs and bounding-box centers from the base SVG.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>X</th>
+                        <th>Y</th>
+                        <th>W</th>
+                        <th>H</th>
+                    </tr>
+                </thead>
+                <tbody id="rows"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        async function init() {
+            const response = await fetch('../maps/europe/base.svg');
+            const markup = await response.text();
+            const host = document.getElementById('svg-host');
+            host.innerHTML = markup;
+
+            const svg = host.querySelector('svg');
+            const layer = svg.querySelector('#layer1') || svg;
+            const paths = Array.from(layer.querySelectorAll('path'))
+                .filter(path => path.getAttribute('d'));
+
+            const rows = document.getElementById('rows');
+
+            paths.forEach((path) => {
+                path.classList.add('country');
+                const box = path.getBBox();
+                const cx = box.x + box.width / 2;
+                const cy = box.y + box.height / 2;
+
+                const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', cx - 28);
+                rect.setAttribute('y', cy - 12);
+                rect.setAttribute('width', 56);
+                rect.setAttribute('height', 24);
+                rect.setAttribute('rx', 4);
+                rect.setAttribute('class', 'label-bg');
+
+                const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                text.setAttribute('x', cx);
+                text.setAttribute('y', cy + 6);
+                text.setAttribute('class', 'label');
+                text.textContent = path.id;
+
+                group.appendChild(rect);
+                group.appendChild(text);
+                layer.appendChild(group);
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${path.id}</td>
+                    <td>${cx.toFixed(1)}</td>
+                    <td>${cy.toFixed(1)}</td>
+                    <td>${box.width.toFixed(1)}</td>
+                    <td>${box.height.toFixed(1)}</td>
+                `;
+                rows.appendChild(row);
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>

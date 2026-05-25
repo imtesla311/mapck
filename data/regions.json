@@ -4,9 +4,9 @@
       "id": "whole_africa",
       "name": "Whole Africa",
       "entityLabel": "country",
-      "mapImage": "maps/whole_africa.jpg",
+      "mapImage": "maps/whole_africa/numbered_main.png",
       "questionTypes": [
-        "pointed_country",
+        "numbered_region",
         "capital",
         "reverse_capital"
       ],
@@ -22,7 +22,8 @@
           "alternateCapitals": [
             "Algiers"
           ],
-          "pointed_country": "maps/whole_africa/Algeria.jpeg"
+          "pointed_country": "maps/whole_africa/Algeria.jpeg",
+          "mapNumber": 1
         },
         {
           "id": "ao",
@@ -35,7 +36,8 @@
           "alternateCapitals": [
             "Luanda"
           ],
-          "pointed_country": "maps/southern_africa/Angola.jpg"
+          "pointed_country": "maps/southern_africa/Angola.jpg",
+          "mapNumber": 2
         },
         {
           "id": "xa",
@@ -47,7 +49,8 @@
           "alternateCapitals": [
             "Cabinda City"
           ],
-          "pointed_country": "maps/whole_africa/Cabinda.jpeg"
+          "pointed_country": "maps/whole_africa/Cabinda.jpeg",
+          "mapNumber": 3
         },
         {
           "id": "bj",
@@ -61,7 +64,11 @@
             "Porto-Novo",
             "Cotonou"
           ],
-          "pointed_country": "maps/whole_africa/Benin.jpeg"
+          "pointed_country": "maps/whole_africa/Benin.jpeg",
+          "mapNumber": 4,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "bw",
@@ -74,7 +81,8 @@
           "alternateCapitals": [
             "Gaborone"
           ],
-          "pointed_country": "maps/southern_africa/Botswana.jpg"
+          "pointed_country": "maps/southern_africa/Botswana.jpg",
+          "mapNumber": 5
         },
         {
           "id": "bf",
@@ -86,7 +94,11 @@
           "alternateCapitals": [
             "Ouagadougou"
           ],
-          "pointed_country": "maps/whole_africa/Burkina Faso.jpeg"
+          "pointed_country": "maps/whole_africa/Burkina Faso.jpeg",
+          "mapNumber": 6,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "bi",
@@ -100,7 +112,8 @@
             "Gitega",
             "Bujumbura"
           ],
-          "pointed_country": "maps/southern_africa/Burundi.jpeg"
+          "pointed_country": "maps/southern_africa/Burundi.jpeg",
+          "mapNumber": 7
         },
         {
           "id": "cv",
@@ -114,7 +127,11 @@
           "alternateCapitals": [
             "Praia"
           ],
-          "pointed_country": "maps/whole_africa/Cabo Verde.jpeg"
+          "pointed_country": "maps/whole_africa/Cabo Verde.jpeg",
+          "mapNumber": 8,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "cm",
@@ -127,7 +144,11 @@
           "alternateCapitals": [
             "Yaounde"
           ],
-          "pointed_country": "maps/whole_africa/Cameroon.jpeg"
+          "pointed_country": "maps/whole_africa/Cameroon.jpeg",
+          "mapNumber": 9,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "cf",
@@ -140,7 +161,8 @@
           "alternateCapitals": [
             "Bangui"
           ],
-          "pointed_country": "maps/whole_africa/Central African Republic.jpeg"
+          "pointed_country": "maps/whole_africa/Central African Republic.jpeg",
+          "mapNumber": 10
         },
         {
           "id": "td",
@@ -153,7 +175,8 @@
           "alternateCapitals": [
             "N'Djamena"
           ],
-          "pointed_country": "maps/whole_africa/Chad.jpeg"
+          "pointed_country": "maps/whole_africa/Chad.jpeg",
+          "mapNumber": 11
         },
         {
           "id": "km",
@@ -166,7 +189,8 @@
           "alternateCapitals": [
             "Moroni"
           ],
-          "pointed_country": "maps/southern_africa/Comoros.jpg"
+          "pointed_country": "maps/southern_africa/Comoros.jpg",
+          "mapNumber": 12
         },
         {
           "id": "cd",
@@ -181,7 +205,8 @@
           "alternateCapitals": [
             "Kinshasa"
           ],
-          "pointed_country": "maps/southern_africa/DRC.jpeg"
+          "pointed_country": "maps/southern_africa/DRC.jpeg",
+          "mapNumber": 13
         },
         {
           "id": "cg",
@@ -195,7 +220,8 @@
           "alternateCapitals": [
             "Brazzaville"
           ],
-          "pointed_country": "maps/whole_africa/Republic of the Congo.jpeg"
+          "pointed_country": "maps/whole_africa/Republic of the Congo.jpeg",
+          "mapNumber": 14
         },
         {
           "id": "ci",
@@ -209,7 +235,11 @@
             "Yamoussoukro",
             "Abidjan"
           ],
-          "pointed_country": "maps/whole_africa/Ivory Coast.jpeg"
+          "pointed_country": "maps/whole_africa/Ivory Coast.jpeg",
+          "mapNumber": 15,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "dj",
@@ -222,7 +252,8 @@
           "alternateCapitals": [
             "Djibouti"
           ],
-          "pointed_country": "maps/whole_africa/Djibouti.jpeg"
+          "pointed_country": "maps/whole_africa/Djibouti.jpeg",
+          "mapNumber": 16
         },
         {
           "id": "eg",
@@ -235,7 +266,8 @@
           "alternateCapitals": [
             "Cairo"
           ],
-          "pointed_country": "maps/whole_africa/Egypt.jpeg"
+          "pointed_country": "maps/whole_africa/Egypt.jpeg",
+          "mapNumber": 17
         },
         {
           "id": "gq",
@@ -248,7 +280,8 @@
           "alternateCapitals": [
             "Malabo"
           ],
-          "pointed_country": "maps/whole_africa/Equatorial Guinea.jpeg"
+          "pointed_country": "maps/whole_africa/Equatorial Guinea.jpeg",
+          "mapNumber": 18
         },
         {
           "id": "er",
@@ -261,7 +294,8 @@
           "alternateCapitals": [
             "Asmara"
           ],
-          "pointed_country": "maps/whole_africa/Eritrea.jpeg"
+          "pointed_country": "maps/whole_africa/Eritrea.jpeg",
+          "mapNumber": 19
         },
         {
           "id": "sz",
@@ -277,7 +311,8 @@
             "Mbabane",
             "Lobamba"
           ],
-          "pointed_country": "maps/southern_africa/Eswatini.jpeg"
+          "pointed_country": "maps/southern_africa/Eswatini.jpeg",
+          "mapNumber": 20
         },
         {
           "id": "et",
@@ -290,7 +325,8 @@
           "alternateCapitals": [
             "Addis Ababa"
           ],
-          "pointed_country": "maps/whole_africa/Ethiopia.jpeg"
+          "pointed_country": "maps/whole_africa/Ethiopia.jpeg",
+          "mapNumber": 21
         },
         {
           "id": "ga",
@@ -303,7 +339,8 @@
           "alternateCapitals": [
             "Libreville"
           ],
-          "pointed_country": "maps/whole_africa/Gabon.jpeg"
+          "pointed_country": "maps/whole_africa/Gabon.jpeg",
+          "mapNumber": 22
         },
         {
           "id": "gm",
@@ -316,7 +353,11 @@
           "alternateCapitals": [
             "Banjul"
           ],
-          "pointed_country": "maps/whole_africa/Gambia.jpeg"
+          "pointed_country": "maps/whole_africa/Gambia.jpeg",
+          "mapNumber": 23,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "gh",
@@ -329,7 +370,11 @@
           "alternateCapitals": [
             "Accra"
           ],
-          "pointed_country": "maps/whole_africa/Ghana.jpeg"
+          "pointed_country": "maps/whole_africa/Ghana.jpeg",
+          "mapNumber": 24,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "gn",
@@ -342,7 +387,11 @@
           "alternateCapitals": [
             "Conakry"
           ],
-          "pointed_country": "maps/whole_africa/Guinea.jpeg"
+          "pointed_country": "maps/whole_africa/Guinea.jpeg",
+          "mapNumber": 25,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "gw",
@@ -355,7 +404,11 @@
           "alternateCapitals": [
             "Bissau"
           ],
-          "pointed_country": "maps/whole_africa/Guinea-Bissau.jpeg"
+          "pointed_country": "maps/whole_africa/Guinea-Bissau.jpeg",
+          "mapNumber": 26,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "ke",
@@ -368,7 +421,8 @@
           "alternateCapitals": [
             "Nairobi"
           ],
-          "pointed_country": "maps/whole_africa/Kenya.jpeg"
+          "pointed_country": "maps/whole_africa/Kenya.jpeg",
+          "mapNumber": 27
         },
         {
           "id": "ls",
@@ -381,7 +435,8 @@
           "alternateCapitals": [
             "Maseru"
           ],
-          "pointed_country": "maps/southern_africa/Lesotho.jpeg"
+          "pointed_country": "maps/southern_africa/Lesotho.jpeg",
+          "mapNumber": 28
         },
         {
           "id": "lr",
@@ -394,7 +449,11 @@
           "alternateCapitals": [
             "Monrovia"
           ],
-          "pointed_country": "maps/whole_africa/Liberia.jpeg"
+          "pointed_country": "maps/whole_africa/Liberia.jpeg",
+          "mapNumber": 29,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "ly",
@@ -407,7 +466,8 @@
           "alternateCapitals": [
             "Tripoli"
           ],
-          "pointed_country": "maps/whole_africa/Libya.jpeg"
+          "pointed_country": "maps/whole_africa/Libya.jpeg",
+          "mapNumber": 30
         },
         {
           "id": "mg",
@@ -420,7 +480,8 @@
           "alternateCapitals": [
             "Antananarivo"
           ],
-          "pointed_country": "maps/southern_africa/Madagascar.jpeg"
+          "pointed_country": "maps/southern_africa/Madagascar.jpeg",
+          "mapNumber": 31
         },
         {
           "id": "mw",
@@ -433,7 +494,8 @@
           "alternateCapitals": [
             "Lilongwe"
           ],
-          "pointed_country": "maps/southern_africa/Malawi.jpeg"
+          "pointed_country": "maps/southern_africa/Malawi.jpeg",
+          "mapNumber": 32
         },
         {
           "id": "ml",
@@ -446,7 +508,11 @@
           "alternateCapitals": [
             "Bamako"
           ],
-          "pointed_country": "maps/whole_africa/Mali.jpeg"
+          "pointed_country": "maps/whole_africa/Mali.jpeg",
+          "mapNumber": 33,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "mr",
@@ -459,7 +525,11 @@
           "alternateCapitals": [
             "Nouakchott"
           ],
-          "pointed_country": "maps/whole_africa/Mauritania.jpeg"
+          "pointed_country": "maps/whole_africa/Mauritania.jpeg",
+          "mapNumber": 34,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "mu",
@@ -472,7 +542,8 @@
           "alternateCapitals": [
             "Port Louis"
           ],
-          "pointed_country": "maps/southern_africa/Mauritius.jpg"
+          "pointed_country": "maps/southern_africa/Mauritius.jpg",
+          "mapNumber": 35
         },
         {
           "id": "ma",
@@ -485,7 +556,8 @@
           "alternateCapitals": [
             "Rabat"
           ],
-          "pointed_country": "maps/whole_africa/Morocco.jpeg"
+          "pointed_country": "maps/whole_africa/Morocco.jpeg",
+          "mapNumber": 36
         },
         {
           "id": "mz",
@@ -498,7 +570,8 @@
           "alternateCapitals": [
             "Maputo"
           ],
-          "pointed_country": "maps/southern_africa/Mozambique.jpeg"
+          "pointed_country": "maps/southern_africa/Mozambique.jpeg",
+          "mapNumber": 37
         },
         {
           "id": "na",
@@ -511,7 +584,8 @@
           "alternateCapitals": [
             "Windhoek"
           ],
-          "pointed_country": "maps/southern_africa/Namibia.jpeg"
+          "pointed_country": "maps/southern_africa/Namibia.jpeg",
+          "mapNumber": 38
         },
         {
           "id": "ne",
@@ -524,7 +598,11 @@
           "alternateCapitals": [
             "Niamey"
           ],
-          "pointed_country": "maps/whole_africa/Niger.jpeg"
+          "pointed_country": "maps/whole_africa/Niger.jpeg",
+          "mapNumber": 39,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "ng",
@@ -537,7 +615,11 @@
           "alternateCapitals": [
             "Abuja"
           ],
-          "pointed_country": "maps/whole_africa/Nigeria.jpeg"
+          "pointed_country": "maps/whole_africa/Nigeria.jpeg",
+          "mapNumber": 40,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "rw",
@@ -550,7 +632,8 @@
           "alternateCapitals": [
             "Kigali"
           ],
-          "pointed_country": "maps/southern_africa/Rwanda.jpeg"
+          "pointed_country": "maps/southern_africa/Rwanda.jpeg",
+          "mapNumber": 41
         },
         {
           "id": "st",
@@ -563,7 +646,8 @@
           "alternateCapitals": [
             "Sao Tome"
           ],
-          "pointed_country": "maps/whole_africa/Sao Tome and Principe.jpeg"
+          "pointed_country": "maps/whole_africa/Sao Tome and Principe.jpeg",
+          "mapNumber": 42
         },
         {
           "id": "sn",
@@ -576,7 +660,11 @@
           "alternateCapitals": [
             "Dakar"
           ],
-          "pointed_country": "maps/whole_africa/Senegal.jpeg"
+          "pointed_country": "maps/whole_africa/Senegal.jpeg",
+          "mapNumber": 43,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "sc",
@@ -589,7 +677,8 @@
           "alternateCapitals": [
             "Victoria"
           ],
-          "pointed_country": "maps/southern_africa/Seychelles.jpeg"
+          "pointed_country": "maps/southern_africa/Seychelles.jpeg",
+          "mapNumber": 44
         },
         {
           "id": "sl",
@@ -602,7 +691,11 @@
           "alternateCapitals": [
             "Freetown"
           ],
-          "pointed_country": "maps/whole_africa/Sierra Leone.jpeg"
+          "pointed_country": "maps/whole_africa/Sierra Leone.jpeg",
+          "mapNumber": 45,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "so",
@@ -615,7 +708,8 @@
           "alternateCapitals": [
             "Mogadishu"
           ],
-          "pointed_country": "maps/whole_africa/Somalia.jpeg"
+          "pointed_country": "maps/whole_africa/Somalia.jpeg",
+          "mapNumber": 46
         },
         {
           "id": "za",
@@ -630,7 +724,8 @@
             "Cape Town",
             "Bloemfontein"
           ],
-          "pointed_country": "maps/southern_africa/South Africa.jpeg"
+          "pointed_country": "maps/southern_africa/South Africa.jpeg",
+          "mapNumber": 47
         },
         {
           "id": "ss",
@@ -643,7 +738,8 @@
           "alternateCapitals": [
             "Juba"
           ],
-          "pointed_country": "maps/whole_africa/South Sudan.jpeg"
+          "pointed_country": "maps/whole_africa/South Sudan.jpeg",
+          "mapNumber": 48
         },
         {
           "id": "sd",
@@ -656,7 +752,8 @@
           "alternateCapitals": [
             "Khartoum"
           ],
-          "pointed_country": "maps/whole_africa/Sudan.jpeg"
+          "pointed_country": "maps/whole_africa/Sudan.jpeg",
+          "mapNumber": 49
         },
         {
           "id": "tz",
@@ -670,7 +767,8 @@
             "Dodoma",
             "Dar es Salaam"
           ],
-          "pointed_country": "maps/southern_africa/Tanzania.jpeg"
+          "pointed_country": "maps/southern_africa/Tanzania.jpeg",
+          "mapNumber": 50
         },
         {
           "id": "tg",
@@ -683,7 +781,11 @@
           "alternateCapitals": [
             "Lome"
           ],
-          "pointed_country": "maps/whole_africa/Togo.jpeg"
+          "pointed_country": "maps/whole_africa/Togo.jpeg",
+          "mapNumber": 51,
+          "questionImages": {
+            "numbered_region": "maps/whole_africa/numbered_west.png"
+          }
         },
         {
           "id": "tn",
@@ -696,7 +798,8 @@
           "alternateCapitals": [
             "Tunis"
           ],
-          "pointed_country": "maps/whole_africa/Tunisia.jpeg"
+          "pointed_country": "maps/whole_africa/Tunisia.jpeg",
+          "mapNumber": 52
         },
         {
           "id": "ug",
@@ -709,7 +812,8 @@
           "alternateCapitals": [
             "Kampala"
           ],
-          "pointed_country": "maps/whole_africa/Uganda.jpeg"
+          "pointed_country": "maps/whole_africa/Uganda.jpeg",
+          "mapNumber": 53
         },
         {
           "id": "zm",
@@ -722,7 +826,8 @@
           "alternateCapitals": [
             "Lusaka"
           ],
-          "pointed_country": "maps/southern_africa/Zambia.jpeg"
+          "pointed_country": "maps/southern_africa/Zambia.jpeg",
+          "mapNumber": 54
         },
         {
           "id": "zw",
@@ -735,9 +840,11 @@
           "alternateCapitals": [
             "Harare"
           ],
-          "pointed_country": "maps/southern_africa/Zimbabwe.jpeg"
+          "pointed_country": "maps/southern_africa/Zimbabwe.jpeg",
+          "mapNumber": 55
         }
-      ]
+      ],
+      "numberedMapImage": "maps/whole_africa/numbered_main.png"
     },
     "southern_africa": {
       "id": "southern_africa",
