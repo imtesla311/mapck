@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "id": "whole_africa",
+      "file": "regions/whole_africa.json"
+    },
+    {
+      "id": "southern_africa",
+      "file": "regions/southern_africa.json"
+    },
+    {
+      "id": "us_states",
+      "file": "regions/us_states.json"
+    }
+  ]
+}

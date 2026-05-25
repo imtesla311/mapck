@@ -6,10 +6,11 @@ A web-based application for practicing geography skills through interactive map 
 
 - **Multiple Quiz Modes**: Choose between Multiple Choice or Typing answers
 - **Region Selection**: Practice with different geographical regions
-- **Three Question Types per Country**:
+- **Configurable Question Types per Region**:
   - "What country is pointed to in this image?" (shows pointed country image)
   - "What is the capital city of [country]?" (shows default map)
   - "[Capital] is the capital of which country?" (shows default map)
+  - "What country/state is number [N] on this map?" (shows a shared numbered map image)
 - **Question-Specific Images**: Each question can use a custom image or fall back to the region's default map
 - **Randomized Questions**: Questions are shuffled each time for variety
 - **Score Tracking**: Automatically saves your quiz history to local storage
@@ -31,7 +32,9 @@ mapck/
 │   ├── scoreTracker.js     # Score tracking and persistence
 │   └── regionManager.js    # Region data management
 ├── data/
-│   └── regions.json        # Region and country data
+│   ├── index.json          # Region manifest
+│   ├── regions.json        # Legacy single-file fallback format
+│   └── regions/            # One JSON file per region
 └── maps/
     ├── southern_africa.jpg   # Default map for Southern Africa
     └── southern_africa/    # Question-specific images (optional)
@@ -111,51 +114,69 @@ After completing the quiz, you'll see:
 
 To add a new geographical region:
 
-1. Open `data/regions.json`
-2. Add a new region entry under the `regions` object:
+1. Open `data/index.json`
+2. Add a manifest entry under `regions`:
 
 ```json
 {
-  "regions": {
-    "southern_africa": { ... },
-    "your_region_id": {
+  "regions": [
+    {
       "id": "your_region_id",
-      "name": "Your Region Name",
-      "mapImage": "maps/your_region.jpg",
-      "countries": [
-        {
-          "id": "country_code",
-          "name": "Country Name",
-          "capital": "Capital City",
-          "alternateNames": ["Alternate Name 1", "Alternate Name 2"],
-          "alternateCapitals": ["Capital 1", "Capital 2"],
-          "questionImages": {
-            "country_name": "maps/your_region/country_code_country.jpg",
-            "capital": "maps/your_region/country_code_capital.jpg",
-            "pointed_country": "maps/your_region/country_code_pointed.jpg"
-          }
-        }
-      ]
+      "file": "regions/your_region_id.json"
     }
-  }
+  ]
 }
 ```
 
-3. Place your map image in the `maps/` directory
-4. (Optional) Create a `maps/your_region/` folder for question-specific images
-5. Refresh the application - the new region will appear in the dropdown
+3. Create `data/regions/your_region_id.json`:
+
+```json
+{
+  "id": "your_region_id",
+  "name": "Your Region Name",
+  "entityLabel": "country",
+  "mapImage": "maps/your_region.jpg",
+  "numberedMapImage": "maps/your_region/numbered_map.png",
+  "questionTypes": ["pointed_country", "capital", "reverse_capital", "numbered_region"],
+  "countries": [
+    {
+      "id": "country_code",
+      "name": "Country Name",
+      "capital": "Capital City",
+      "alternateNames": ["Alternate Name 1", "Alternate Name 2"],
+      "alternateCapitals": ["Capital 1", "Capital 2"],
+      "mapNumber": 1,
+      "questionImages": {
+        "capital": "maps/your_region/country_code_capital.jpg",
+        "pointed_country": "maps/your_region/country_code_pointed.jpg"
+      }
+    }
+  ]
+}
+```
+
+4. Place your map image in the `maps/` directory
+5. (Optional) Create a `maps/your_region/` folder for question-specific images
+6. Refresh the application - the new region will appear in the dropdown
+
+The app now prefers the manifest + per-region files in `data/index.json` and `data/regions/`. It still supports the older `data/regions.json` format as a fallback.
 
 ### Question-Specific Images
 
-Each country can have custom images for different question types:
+Each country can have custom images for different question types, and each region can also define a shared numbered map:
 
 | Question Type | Description | Image Key |
 |---------------|-------------|-------------|
 | `pointed_country` | "What country is pointed to in this image?" | `pointed_country` |
 | `capital` | "What is the capital city of [country]?" | `capital` |
 | `reverse_capital` | "[Capital] is the capital of which country?" | `capital` |
+| `numbered_region` | "What country/state is number [N] on this map?" | region-level `numberedMapImage` |
 
 **Notes:**
+- `questionTypes` is optional; if omitted, the app defaults to `pointed_country`, `capital`, and `reverse_capital`
+- `entityLabel` is optional and changes prompt wording such as `country` vs `state`
+- `numberedMapImage` is optional and is used by `numbered_region` questions
+- `mapNumber` is optional per country/region entry and is required for `numbered_region` questions
 - The `questionImages` field is optional
 - If a question type doesn't have a custom image, the region's default map is used
 - Images should be organized under `maps/region_name/` folder
@@ -172,6 +193,7 @@ Each country object supports the following fields:
 | `capital` | string | Primary capital city name |
 | `alternateNames` | array | Alternative country names for answer matching |
 | `alternateCapitals` | array | Alternative capital names for answer matching |
+| `mapNumber` | number | Number shown for this entry on the region's numbered map |
 
 ## Answer Matching
 
@@ -186,12 +208,12 @@ The application uses fuzzy matching to validate answers:
 
 ### Map image not displaying
 - Ensure the map file exists in the `maps/` directory
-- Check that the filename in `regions.json` matches the actual file
+- Check that the filename in your region JSON matches the actual file
 - Verify the image format is supported (JPG, PNG, SVG)
 
 ### Questions not loading
 - Check browser console for errors (F12 → Console)
-- Ensure `data/regions.json` is valid JSON
+- Ensure `data/index.json` and your region file are valid JSON
 - Verify the HTTP server is running if using that method
 
 ### Scores not saving

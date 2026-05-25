@@ -1,0 +1,666 @@
+{
+  "id": "us_states",
+  "name": "US States",
+  "entityLabel": "state",
+  "mapImage": "maps/us/us_states_numbered.png",
+  "numberedMapImage": "maps/us/us_states_numbered.png",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "wa",
+      "name": "Washington",
+      "capital": "Olympia",
+      "alternateNames": [
+        "Washington",
+        "State of Washington"
+      ],
+      "alternateCapitals": [
+        "Olympia"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "or",
+      "name": "Oregon",
+      "capital": "Salem",
+      "alternateNames": [
+        "Oregon",
+        "State of Oregon"
+      ],
+      "alternateCapitals": [
+        "Salem"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "ca",
+      "name": "California",
+      "capital": "Sacramento",
+      "alternateNames": [
+        "California",
+        "State of California"
+      ],
+      "alternateCapitals": [
+        "Sacramento"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "id",
+      "name": "Idaho",
+      "capital": "Boise",
+      "alternateNames": [
+        "Idaho",
+        "State of Idaho"
+      ],
+      "alternateCapitals": [
+        "Boise"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "nv",
+      "name": "Nevada",
+      "capital": "Carson City",
+      "alternateNames": [
+        "Nevada",
+        "State of Nevada"
+      ],
+      "alternateCapitals": [
+        "Carson City"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "mt",
+      "name": "Montana",
+      "capital": "Helena",
+      "alternateNames": [
+        "Montana",
+        "State of Montana"
+      ],
+      "alternateCapitals": [
+        "Helena"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "wy",
+      "name": "Wyoming",
+      "capital": "Cheyenne",
+      "alternateNames": [
+        "Wyoming",
+        "State of Wyoming"
+      ],
+      "alternateCapitals": [
+        "Cheyenne"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "ut",
+      "name": "Utah",
+      "capital": "Salt Lake City",
+      "alternateNames": [
+        "Utah",
+        "State of Utah"
+      ],
+      "alternateCapitals": [
+        "Salt Lake City"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "az",
+      "name": "Arizona",
+      "capital": "Phoenix",
+      "alternateNames": [
+        "Arizona",
+        "State of Arizona"
+      ],
+      "alternateCapitals": [
+        "Phoenix"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "nm",
+      "name": "New Mexico",
+      "capital": "Santa Fe",
+      "alternateNames": [
+        "New Mexico",
+        "State of New Mexico"
+      ],
+      "alternateCapitals": [
+        "Santa Fe"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "co",
+      "name": "Colorado",
+      "capital": "Denver",
+      "alternateNames": [
+        "Colorado",
+        "State of Colorado"
+      ],
+      "alternateCapitals": [
+        "Denver"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "nd",
+      "name": "North Dakota",
+      "capital": "Bismarck",
+      "alternateNames": [
+        "North Dakota",
+        "State of North Dakota"
+      ],
+      "alternateCapitals": [
+        "Bismarck"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "sd",
+      "name": "South Dakota",
+      "capital": "Pierre",
+      "alternateNames": [
+        "South Dakota",
+        "State of South Dakota"
+      ],
+      "alternateCapitals": [
+        "Pierre"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "ne",
+      "name": "Nebraska",
+      "capital": "Lincoln",
+      "alternateNames": [
+        "Nebraska",
+        "State of Nebraska"
+      ],
+      "alternateCapitals": [
+        "Lincoln"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "ks",
+      "name": "Kansas",
+      "capital": "Topeka",
+      "alternateNames": [
+        "Kansas",
+        "State of Kansas"
+      ],
+      "alternateCapitals": [
+        "Topeka"
+      ],
+      "mapNumber": 15
+    },
+    {
+      "id": "ok",
+      "name": "Oklahoma",
+      "capital": "Oklahoma City",
+      "alternateNames": [
+        "Oklahoma",
+        "State of Oklahoma"
+      ],
+      "alternateCapitals": [
+        "Oklahoma City"
+      ],
+      "mapNumber": 16
+    },
+    {
+      "id": "tx",
+      "name": "Texas",
+      "capital": "Austin",
+      "alternateNames": [
+        "Texas",
+        "State of Texas"
+      ],
+      "alternateCapitals": [
+        "Austin"
+      ],
+      "mapNumber": 17
+    },
+    {
+      "id": "mn",
+      "name": "Minnesota",
+      "capital": "Saint Paul",
+      "alternateNames": [
+        "Minnesota",
+        "State of Minnesota"
+      ],
+      "alternateCapitals": [
+        "Saint Paul",
+        "St Paul"
+      ],
+      "mapNumber": 18
+    },
+    {
+      "id": "ia",
+      "name": "Iowa",
+      "capital": "Des Moines",
+      "alternateNames": [
+        "Iowa",
+        "State of Iowa"
+      ],
+      "alternateCapitals": [
+        "Des Moines"
+      ],
+      "mapNumber": 19
+    },
+    {
+      "id": "mo",
+      "name": "Missouri",
+      "capital": "Jefferson City",
+      "alternateNames": [
+        "Missouri",
+        "State of Missouri"
+      ],
+      "alternateCapitals": [
+        "Jefferson City"
+      ],
+      "mapNumber": 20
+    },
+    {
+      "id": "ar",
+      "name": "Arkansas",
+      "capital": "Little Rock",
+      "alternateNames": [
+        "Arkansas",
+        "State of Arkansas"
+      ],
+      "alternateCapitals": [
+        "Little Rock"
+      ],
+      "mapNumber": 21
+    },
+    {
+      "id": "la",
+      "name": "Louisiana",
+      "capital": "Baton Rouge",
+      "alternateNames": [
+        "Louisiana",
+        "State of Louisiana"
+      ],
+      "alternateCapitals": [
+        "Baton Rouge"
+      ],
+      "mapNumber": 22
+    },
+    {
+      "id": "wi",
+      "name": "Wisconsin",
+      "capital": "Madison",
+      "alternateNames": [
+        "Wisconsin",
+        "State of Wisconsin"
+      ],
+      "alternateCapitals": [
+        "Madison"
+      ],
+      "mapNumber": 23
+    },
+    {
+      "id": "il",
+      "name": "Illinois",
+      "capital": "Springfield",
+      "alternateNames": [
+        "Illinois",
+        "State of Illinois"
+      ],
+      "alternateCapitals": [
+        "Springfield"
+      ],
+      "mapNumber": 24
+    },
+    {
+      "id": "in",
+      "name": "Indiana",
+      "capital": "Indianapolis",
+      "alternateNames": [
+        "Indiana",
+        "State of Indiana"
+      ],
+      "alternateCapitals": [
+        "Indianapolis"
+      ],
+      "mapNumber": 25
+    },
+    {
+      "id": "mi",
+      "name": "Michigan",
+      "capital": "Lansing",
+      "alternateNames": [
+        "Michigan",
+        "State of Michigan"
+      ],
+      "alternateCapitals": [
+        "Lansing"
+      ],
+      "mapNumber": 26
+    },
+    {
+      "id": "oh",
+      "name": "Ohio",
+      "capital": "Columbus",
+      "alternateNames": [
+        "Ohio",
+        "State of Ohio"
+      ],
+      "alternateCapitals": [
+        "Columbus"
+      ],
+      "mapNumber": 27
+    },
+    {
+      "id": "ky",
+      "name": "Kentucky",
+      "capital": "Frankfort",
+      "alternateNames": [
+        "Kentucky",
+        "Commonwealth of Kentucky"
+      ],
+      "alternateCapitals": [
+        "Frankfort"
+      ],
+      "mapNumber": 28
+    },
+    {
+      "id": "tn",
+      "name": "Tennessee",
+      "capital": "Nashville",
+      "alternateNames": [
+        "Tennessee",
+        "State of Tennessee"
+      ],
+      "alternateCapitals": [
+        "Nashville"
+      ],
+      "mapNumber": 29
+    },
+    {
+      "id": "ms",
+      "name": "Mississippi",
+      "capital": "Jackson",
+      "alternateNames": [
+        "Mississippi",
+        "State of Mississippi"
+      ],
+      "alternateCapitals": [
+        "Jackson"
+      ],
+      "mapNumber": 30
+    },
+    {
+      "id": "al",
+      "name": "Alabama",
+      "capital": "Montgomery",
+      "alternateNames": [
+        "Alabama",
+        "State of Alabama"
+      ],
+      "alternateCapitals": [
+        "Montgomery"
+      ],
+      "mapNumber": 31
+    },
+    {
+      "id": "ga",
+      "name": "Georgia",
+      "capital": "Atlanta",
+      "alternateNames": [
+        "Georgia",
+        "State of Georgia"
+      ],
+      "alternateCapitals": [
+        "Atlanta"
+      ],
+      "mapNumber": 32
+    },
+    {
+      "id": "fl",
+      "name": "Florida",
+      "capital": "Tallahassee",
+      "alternateNames": [
+        "Florida",
+        "State of Florida"
+      ],
+      "alternateCapitals": [
+        "Tallahassee"
+      ],
+      "mapNumber": 33
+    },
+    {
+      "id": "sc",
+      "name": "South Carolina",
+      "capital": "Columbia",
+      "alternateNames": [
+        "South Carolina",
+        "State of South Carolina"
+      ],
+      "alternateCapitals": [
+        "Columbia"
+      ],
+      "mapNumber": 34
+    },
+    {
+      "id": "nc",
+      "name": "North Carolina",
+      "capital": "Raleigh",
+      "alternateNames": [
+        "North Carolina",
+        "State of North Carolina"
+      ],
+      "alternateCapitals": [
+        "Raleigh"
+      ],
+      "mapNumber": 35
+    },
+    {
+      "id": "va",
+      "name": "Virginia",
+      "capital": "Richmond",
+      "alternateNames": [
+        "Virginia",
+        "Commonwealth of Virginia"
+      ],
+      "alternateCapitals": [
+        "Richmond"
+      ],
+      "mapNumber": 36
+    },
+    {
+      "id": "wv",
+      "name": "West Virginia",
+      "capital": "Charleston",
+      "alternateNames": [
+        "West Virginia",
+        "State of West Virginia"
+      ],
+      "alternateCapitals": [
+        "Charleston"
+      ],
+      "mapNumber": 37
+    },
+    {
+      "id": "pa",
+      "name": "Pennsylvania",
+      "capital": "Harrisburg",
+      "alternateNames": [
+        "Pennsylvania",
+        "Commonwealth of Pennsylvania"
+      ],
+      "alternateCapitals": [
+        "Harrisburg"
+      ],
+      "mapNumber": 38
+    },
+    {
+      "id": "ny",
+      "name": "New York",
+      "capital": "Albany",
+      "alternateNames": [
+        "New York",
+        "State of New York"
+      ],
+      "alternateCapitals": [
+        "Albany"
+      ],
+      "mapNumber": 39
+    },
+    {
+      "id": "vt",
+      "name": "Vermont",
+      "capital": "Montpelier",
+      "alternateNames": [
+        "Vermont",
+        "State of Vermont"
+      ],
+      "alternateCapitals": [
+        "Montpelier"
+      ],
+      "mapNumber": 40
+    },
+    {
+      "id": "nh",
+      "name": "New Hampshire",
+      "capital": "Concord",
+      "alternateNames": [
+        "New Hampshire",
+        "State of New Hampshire"
+      ],
+      "alternateCapitals": [
+        "Concord"
+      ],
+      "mapNumber": 41
+    },
+    {
+      "id": "me",
+      "name": "Maine",
+      "capital": "Augusta",
+      "alternateNames": [
+        "Maine",
+        "State of Maine"
+      ],
+      "alternateCapitals": [
+        "Augusta"
+      ],
+      "mapNumber": 42
+    },
+    {
+      "id": "ma",
+      "name": "Massachusetts",
+      "capital": "Boston",
+      "alternateNames": [
+        "Massachusetts",
+        "Commonwealth of Massachusetts"
+      ],
+      "alternateCapitals": [
+        "Boston"
+      ],
+      "mapNumber": 43
+    },
+    {
+      "id": "ri",
+      "name": "Rhode Island",
+      "capital": "Providence",
+      "alternateNames": [
+        "Rhode Island",
+        "State of Rhode Island",
+        "Rhode Island and Providence Plantations"
+      ],
+      "alternateCapitals": [
+        "Providence"
+      ],
+      "mapNumber": 44
+    },
+    {
+      "id": "ct",
+      "name": "Connecticut",
+      "capital": "Hartford",
+      "alternateNames": [
+        "Connecticut",
+        "State of Connecticut"
+      ],
+      "alternateCapitals": [
+        "Hartford"
+      ],
+      "mapNumber": 45
+    },
+    {
+      "id": "nj",
+      "name": "New Jersey",
+      "capital": "Trenton",
+      "alternateNames": [
+        "New Jersey",
+        "State of New Jersey"
+      ],
+      "alternateCapitals": [
+        "Trenton"
+      ],
+      "mapNumber": 46
+    },
+    {
+      "id": "de",
+      "name": "Delaware",
+      "capital": "Dover",
+      "alternateNames": [
+        "Delaware",
+        "State of Delaware"
+      ],
+      "alternateCapitals": [
+        "Dover"
+      ],
+      "mapNumber": 47
+    },
+    {
+      "id": "md",
+      "name": "Maryland",
+      "capital": "Annapolis",
+      "alternateNames": [
+        "Maryland",
+        "State of Maryland"
+      ],
+      "alternateCapitals": [
+        "Annapolis"
+      ],
+      "mapNumber": 48
+    },
+    {
+      "id": "ak",
+      "name": "Alaska",
+      "capital": "Juneau",
+      "alternateNames": [
+        "Alaska",
+        "State of Alaska"
+      ],
+      "alternateCapitals": [
+        "Juneau"
+      ],
+      "mapNumber": 49
+    },
+    {
+      "id": "hi",
+      "name": "Hawaii",
+      "capital": "Honolulu",
+      "alternateNames": [
+        "Hawaii",
+        "State of Hawaii"
+      ],
+      "alternateCapitals": [
+        "Honolulu"
+      ],
+      "mapNumber": 50
+    }
+  ]
+}

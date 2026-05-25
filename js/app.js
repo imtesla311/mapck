@@ -130,11 +130,19 @@ class App {
     startQuiz() {
         if (!this.currentRegionId || !this.currentMode) return;
 
-        // Initialize quiz
-        this.quizEngine.initQuiz(this.currentRegionId, this.currentMode, this.currentQuestionCount);
+        const questions = this.quizEngine.initQuiz(
+            this.currentRegionId,
+            this.currentMode,
+            this.currentQuestionCount
+        );
+
+        if (questions.length === 0) {
+            this.showError('This region does not have any quiz questions configured yet.');
+            return;
+        }
+
         this.regionManager.setCurrentRegion(this.currentRegionId);
 
-        // Show quiz screen
         this.showScreen('quiz');
         this.setupQuizUI();
         this.startTimer();
@@ -359,8 +367,7 @@ class App {
 
         // Update results display
         document.getElementById('result-region').textContent = region.name;
-        document.getElementById('result-mode').textContent = 
-            this.currentMode === 'multiple_choice' ? 'Multiple Choice' : 'Typing';
+        document.getElementById('result-mode').textContent = this.getModeLabel(this.currentMode);
         document.getElementById('result-score').textContent = 
             `${results.score} / ${results.total}`;
         document.getElementById('result-score').className = 'result-value score';
@@ -420,7 +427,7 @@ class App {
             const date = new Date(score.timestamp);
             const formattedDate = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
             const modeText = score.mode === 'multiple_choice' ? 'MC' : 'Typing';
-            const percentage = Math.round((score.score / score.total) * 100);
+            const percentage = score.total > 0 ? Math.round((score.score / score.total) * 100) : 0;
 
             item.innerHTML = `
                 <div>
@@ -433,6 +440,13 @@ class App {
             `;
             container.appendChild(item);
         });
+    }
+
+    /**
+     * Format answer mode labels
+     */
+    getModeLabel(mode) {
+        return mode === 'multiple_choice' ? 'Multiple Choice' : 'Typing';
     }
 
     /**

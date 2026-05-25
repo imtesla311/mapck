@@ -3,446 +3,738 @@
     "whole_africa": {
       "id": "whole_africa",
       "name": "Whole Africa",
+      "entityLabel": "country",
       "mapImage": "maps/whole_africa.jpg",
+      "questionTypes": [
+        "pointed_country",
+        "capital",
+        "reverse_capital"
+      ],
       "countries": [
         {
           "id": "dz",
           "name": "Algeria",
           "capital": "Algiers",
-          "alternateNames": ["Algeria", "People's Democratic Republic of Algeria"],
-          "alternateCapitals": ["Algiers"],
+          "alternateNames": [
+            "Algeria",
+            "People's Democratic Republic of Algeria"
+          ],
+          "alternateCapitals": [
+            "Algiers"
+          ],
           "pointed_country": "maps/whole_africa/Algeria.jpeg"
         },
         {
           "id": "ao",
           "name": "Angola",
           "capital": "Luanda",
-          "alternateNames": ["Angola", "Republic of Angola"],
-          "alternateCapitals": ["Luanda"],
+          "alternateNames": [
+            "Angola",
+            "Republic of Angola"
+          ],
+          "alternateCapitals": [
+            "Luanda"
+          ],
           "pointed_country": "maps/southern_africa/Angola.jpg"
         },
         {
           "id": "xa",
           "name": "Cabinda",
           "capital": "Cabinda City",
-          "alternateNames": ["Cabinda"],
-          "alternateCapitals": ["Cabinda City"],
+          "alternateNames": [
+            "Cabinda"
+          ],
+          "alternateCapitals": [
+            "Cabinda City"
+          ],
           "pointed_country": "maps/whole_africa/Cabinda.jpeg"
         },
         {
           "id": "bj",
           "name": "Benin",
           "capital": "Porto-Novo",
-          "alternateNames": ["Benin", "Republic of Benin"],
-          "alternateCapitals": ["Porto-Novo", "Cotonou"],
+          "alternateNames": [
+            "Benin",
+            "Republic of Benin"
+          ],
+          "alternateCapitals": [
+            "Porto-Novo",
+            "Cotonou"
+          ],
           "pointed_country": "maps/whole_africa/Benin.jpeg"
         },
         {
           "id": "bw",
           "name": "Botswana",
           "capital": "Gaborone",
-          "alternateNames": ["Botswana", "Republic of Botswana"],
-          "alternateCapitals": ["Gaborone"],
+          "alternateNames": [
+            "Botswana",
+            "Republic of Botswana"
+          ],
+          "alternateCapitals": [
+            "Gaborone"
+          ],
           "pointed_country": "maps/southern_africa/Botswana.jpg"
         },
         {
           "id": "bf",
           "name": "Burkina Faso",
           "capital": "Ouagadougou",
-          "alternateNames": ["Burkina Faso"],
-          "alternateCapitals": ["Ouagadougou"],
+          "alternateNames": [
+            "Burkina Faso"
+          ],
+          "alternateCapitals": [
+            "Ouagadougou"
+          ],
           "pointed_country": "maps/whole_africa/Burkina Faso.jpeg"
         },
         {
           "id": "bi",
           "name": "Burundi",
           "capital": "Gitega",
-          "alternateNames": ["Burundi", "Republic of Burundi"],
-          "alternateCapitals": ["Gitega", "Bujumbura"],
+          "alternateNames": [
+            "Burundi",
+            "Republic of Burundi"
+          ],
+          "alternateCapitals": [
+            "Gitega",
+            "Bujumbura"
+          ],
           "pointed_country": "maps/southern_africa/Burundi.jpeg"
         },
         {
           "id": "cv",
           "name": "Cabo Verde",
           "capital": "Praia",
-          "alternateNames": ["Cabo Verde", "Cape Verde", "Republic of Cabo Verde"],
-          "alternateCapitals": ["Praia"],
+          "alternateNames": [
+            "Cabo Verde",
+            "Cape Verde",
+            "Republic of Cabo Verde"
+          ],
+          "alternateCapitals": [
+            "Praia"
+          ],
           "pointed_country": "maps/whole_africa/Cabo Verde.jpeg"
         },
         {
           "id": "cm",
           "name": "Cameroon",
           "capital": "Yaounde",
-          "alternateNames": ["Cameroon", "Republic of Cameroon"],
-          "alternateCapitals": ["Yaounde"],
+          "alternateNames": [
+            "Cameroon",
+            "Republic of Cameroon"
+          ],
+          "alternateCapitals": [
+            "Yaounde"
+          ],
           "pointed_country": "maps/whole_africa/Cameroon.jpeg"
         },
         {
           "id": "cf",
           "name": "Central African Republic",
           "capital": "Bangui",
-          "alternateNames": ["Central African Republic", "CAR"],
-          "alternateCapitals": ["Bangui"],
+          "alternateNames": [
+            "Central African Republic",
+            "CAR"
+          ],
+          "alternateCapitals": [
+            "Bangui"
+          ],
           "pointed_country": "maps/whole_africa/Central African Republic.jpeg"
         },
         {
           "id": "td",
           "name": "Chad",
           "capital": "N'Djamena",
-          "alternateNames": ["Chad", "Republic of Chad"],
-          "alternateCapitals": ["N'Djamena"],
+          "alternateNames": [
+            "Chad",
+            "Republic of Chad"
+          ],
+          "alternateCapitals": [
+            "N'Djamena"
+          ],
           "pointed_country": "maps/whole_africa/Chad.jpeg"
         },
         {
           "id": "km",
           "name": "Comoros",
           "capital": "Moroni",
-          "alternateNames": ["Comoros", "Union of the Comoros"],
-          "alternateCapitals": ["Moroni"],
+          "alternateNames": [
+            "Comoros",
+            "Union of the Comoros"
+          ],
+          "alternateCapitals": [
+            "Moroni"
+          ],
           "pointed_country": "maps/southern_africa/Comoros.jpg"
         },
         {
           "id": "cd",
           "name": "Democratic Republic of the Congo",
           "capital": "Kinshasa",
-          "alternateNames": ["Democratic Republic of the Congo", "DRC", "DR Congo", "Congo-Kinshasa"],
-          "alternateCapitals": ["Kinshasa"],
+          "alternateNames": [
+            "Democratic Republic of the Congo",
+            "DRC",
+            "DR Congo",
+            "Congo-Kinshasa"
+          ],
+          "alternateCapitals": [
+            "Kinshasa"
+          ],
           "pointed_country": "maps/southern_africa/DRC.jpeg"
         },
         {
           "id": "cg",
           "name": "Republic of the Congo",
           "capital": "Brazzaville",
-          "alternateNames": ["Republic of the Congo", "Congo", "Congo-Brazzaville"],
-          "alternateCapitals": ["Brazzaville"],
+          "alternateNames": [
+            "Republic of the Congo",
+            "Congo",
+            "Congo-Brazzaville"
+          ],
+          "alternateCapitals": [
+            "Brazzaville"
+          ],
           "pointed_country": "maps/whole_africa/Republic of the Congo.jpeg"
         },
         {
           "id": "ci",
           "name": "Ivory Coast",
           "capital": "Yamoussoukro",
-          "alternateNames": ["Ivory Coast", "Cote d'Ivoire"],
-          "alternateCapitals": ["Yamoussoukro", "Abidjan"],
+          "alternateNames": [
+            "Ivory Coast",
+            "Cote d'Ivoire"
+          ],
+          "alternateCapitals": [
+            "Yamoussoukro",
+            "Abidjan"
+          ],
           "pointed_country": "maps/whole_africa/Ivory Coast.jpeg"
         },
         {
           "id": "dj",
           "name": "Djibouti",
           "capital": "Djibouti",
-          "alternateNames": ["Djibouti", "Republic of Djibouti"],
-          "alternateCapitals": ["Djibouti"],
+          "alternateNames": [
+            "Djibouti",
+            "Republic of Djibouti"
+          ],
+          "alternateCapitals": [
+            "Djibouti"
+          ],
           "pointed_country": "maps/whole_africa/Djibouti.jpeg"
         },
         {
           "id": "eg",
           "name": "Egypt",
           "capital": "Cairo",
-          "alternateNames": ["Egypt", "Arab Republic of Egypt"],
-          "alternateCapitals": ["Cairo"],
+          "alternateNames": [
+            "Egypt",
+            "Arab Republic of Egypt"
+          ],
+          "alternateCapitals": [
+            "Cairo"
+          ],
           "pointed_country": "maps/whole_africa/Egypt.jpeg"
         },
         {
           "id": "gq",
           "name": "Equatorial Guinea",
           "capital": "Malabo",
-          "alternateNames": ["Equatorial Guinea", "Republic of Equatorial Guinea"],
-          "alternateCapitals": ["Malabo"],
+          "alternateNames": [
+            "Equatorial Guinea",
+            "Republic of Equatorial Guinea"
+          ],
+          "alternateCapitals": [
+            "Malabo"
+          ],
           "pointed_country": "maps/whole_africa/Equatorial Guinea.jpeg"
         },
         {
           "id": "er",
           "name": "Eritrea",
           "capital": "Asmara",
-          "alternateNames": ["Eritrea", "State of Eritrea"],
-          "alternateCapitals": ["Asmara"],
+          "alternateNames": [
+            "Eritrea",
+            "State of Eritrea"
+          ],
+          "alternateCapitals": [
+            "Asmara"
+          ],
           "pointed_country": "maps/whole_africa/Eritrea.jpeg"
         },
         {
           "id": "sz",
           "name": "Eswatini",
           "capital": "Mbabane",
-          "alternateNames": ["Eswatini", "Swaziland", "Kingdom of Eswatini", "Kingdom of Swaziland"],
-          "alternateCapitals": ["Mbabane", "Lobamba"],
+          "alternateNames": [
+            "Eswatini",
+            "Swaziland",
+            "Kingdom of Eswatini",
+            "Kingdom of Swaziland"
+          ],
+          "alternateCapitals": [
+            "Mbabane",
+            "Lobamba"
+          ],
           "pointed_country": "maps/southern_africa/Eswatini.jpeg"
         },
         {
           "id": "et",
           "name": "Ethiopia",
           "capital": "Addis Ababa",
-          "alternateNames": ["Ethiopia", "Federal Democratic Republic of Ethiopia"],
-          "alternateCapitals": ["Addis Ababa"],
+          "alternateNames": [
+            "Ethiopia",
+            "Federal Democratic Republic of Ethiopia"
+          ],
+          "alternateCapitals": [
+            "Addis Ababa"
+          ],
           "pointed_country": "maps/whole_africa/Ethiopia.jpeg"
         },
         {
           "id": "ga",
           "name": "Gabon",
           "capital": "Libreville",
-          "alternateNames": ["Gabon", "Gabonese Republic"],
-          "alternateCapitals": ["Libreville"],
+          "alternateNames": [
+            "Gabon",
+            "Gabonese Republic"
+          ],
+          "alternateCapitals": [
+            "Libreville"
+          ],
           "pointed_country": "maps/whole_africa/Gabon.jpeg"
         },
         {
           "id": "gm",
           "name": "Gambia",
           "capital": "Banjul",
-          "alternateNames": ["Gambia", "Republic of The Gambia"],
-          "alternateCapitals": ["Banjul"],
+          "alternateNames": [
+            "Gambia",
+            "Republic of The Gambia"
+          ],
+          "alternateCapitals": [
+            "Banjul"
+          ],
           "pointed_country": "maps/whole_africa/Gambia.jpeg"
         },
         {
           "id": "gh",
           "name": "Ghana",
           "capital": "Accra",
-          "alternateNames": ["Ghana", "Republic of Ghana"],
-          "alternateCapitals": ["Accra"],
+          "alternateNames": [
+            "Ghana",
+            "Republic of Ghana"
+          ],
+          "alternateCapitals": [
+            "Accra"
+          ],
           "pointed_country": "maps/whole_africa/Ghana.jpeg"
         },
         {
           "id": "gn",
           "name": "Guinea",
           "capital": "Conakry",
-          "alternateNames": ["Guinea", "Republic of Guinea"],
-          "alternateCapitals": ["Conakry"],
+          "alternateNames": [
+            "Guinea",
+            "Republic of Guinea"
+          ],
+          "alternateCapitals": [
+            "Conakry"
+          ],
           "pointed_country": "maps/whole_africa/Guinea.jpeg"
         },
         {
           "id": "gw",
           "name": "Guinea-Bissau",
           "capital": "Bissau",
-          "alternateNames": ["Guinea-Bissau", "Republic of Guinea-Bissau"],
-          "alternateCapitals": ["Bissau"],
+          "alternateNames": [
+            "Guinea-Bissau",
+            "Republic of Guinea-Bissau"
+          ],
+          "alternateCapitals": [
+            "Bissau"
+          ],
           "pointed_country": "maps/whole_africa/Guinea-Bissau.jpeg"
         },
         {
           "id": "ke",
           "name": "Kenya",
           "capital": "Nairobi",
-          "alternateNames": ["Kenya", "Republic of Kenya"],
-          "alternateCapitals": ["Nairobi"],
+          "alternateNames": [
+            "Kenya",
+            "Republic of Kenya"
+          ],
+          "alternateCapitals": [
+            "Nairobi"
+          ],
           "pointed_country": "maps/whole_africa/Kenya.jpeg"
         },
         {
           "id": "ls",
           "name": "Lesotho",
           "capital": "Maseru",
-          "alternateNames": ["Lesotho", "Kingdom of Lesotho"],
-          "alternateCapitals": ["Maseru"],
+          "alternateNames": [
+            "Lesotho",
+            "Kingdom of Lesotho"
+          ],
+          "alternateCapitals": [
+            "Maseru"
+          ],
           "pointed_country": "maps/southern_africa/Lesotho.jpeg"
         },
         {
           "id": "lr",
           "name": "Liberia",
           "capital": "Monrovia",
-          "alternateNames": ["Liberia", "Republic of Liberia"],
-          "alternateCapitals": ["Monrovia"],
+          "alternateNames": [
+            "Liberia",
+            "Republic of Liberia"
+          ],
+          "alternateCapitals": [
+            "Monrovia"
+          ],
           "pointed_country": "maps/whole_africa/Liberia.jpeg"
         },
         {
           "id": "ly",
           "name": "Libya",
           "capital": "Tripoli",
-          "alternateNames": ["Libya", "State of Libya"],
-          "alternateCapitals": ["Tripoli"],
+          "alternateNames": [
+            "Libya",
+            "State of Libya"
+          ],
+          "alternateCapitals": [
+            "Tripoli"
+          ],
           "pointed_country": "maps/whole_africa/Libya.jpeg"
         },
         {
           "id": "mg",
           "name": "Madagascar",
           "capital": "Antananarivo",
-          "alternateNames": ["Madagascar", "Republic of Madagascar"],
-          "alternateCapitals": ["Antananarivo"],
+          "alternateNames": [
+            "Madagascar",
+            "Republic of Madagascar"
+          ],
+          "alternateCapitals": [
+            "Antananarivo"
+          ],
           "pointed_country": "maps/southern_africa/Madagascar.jpeg"
         },
         {
           "id": "mw",
           "name": "Malawi",
           "capital": "Lilongwe",
-          "alternateNames": ["Malawi", "Republic of Malawi"],
-          "alternateCapitals": ["Lilongwe"],
+          "alternateNames": [
+            "Malawi",
+            "Republic of Malawi"
+          ],
+          "alternateCapitals": [
+            "Lilongwe"
+          ],
           "pointed_country": "maps/southern_africa/Malawi.jpeg"
         },
         {
           "id": "ml",
           "name": "Mali",
           "capital": "Bamako",
-          "alternateNames": ["Mali", "Republic of Mali"],
-          "alternateCapitals": ["Bamako"],
+          "alternateNames": [
+            "Mali",
+            "Republic of Mali"
+          ],
+          "alternateCapitals": [
+            "Bamako"
+          ],
           "pointed_country": "maps/whole_africa/Mali.jpeg"
         },
         {
           "id": "mr",
           "name": "Mauritania",
           "capital": "Nouakchott",
-          "alternateNames": ["Mauritania", "Islamic Republic of Mauritania"],
-          "alternateCapitals": ["Nouakchott"],
+          "alternateNames": [
+            "Mauritania",
+            "Islamic Republic of Mauritania"
+          ],
+          "alternateCapitals": [
+            "Nouakchott"
+          ],
           "pointed_country": "maps/whole_africa/Mauritania.jpeg"
         },
         {
           "id": "mu",
           "name": "Mauritius",
           "capital": "Port Louis",
-          "alternateNames": ["Mauritius", "Republic of Mauritius"],
-          "alternateCapitals": ["Port Louis"],
+          "alternateNames": [
+            "Mauritius",
+            "Republic of Mauritius"
+          ],
+          "alternateCapitals": [
+            "Port Louis"
+          ],
           "pointed_country": "maps/southern_africa/Mauritius.jpg"
         },
         {
           "id": "ma",
           "name": "Morocco",
           "capital": "Rabat",
-          "alternateNames": ["Morocco", "Kingdom of Morocco"],
-          "alternateCapitals": ["Rabat"],
+          "alternateNames": [
+            "Morocco",
+            "Kingdom of Morocco"
+          ],
+          "alternateCapitals": [
+            "Rabat"
+          ],
           "pointed_country": "maps/whole_africa/Morocco.jpeg"
         },
         {
           "id": "mz",
           "name": "Mozambique",
           "capital": "Maputo",
-          "alternateNames": ["Mozambique", "Republic of Mozambique"],
-          "alternateCapitals": ["Maputo"],
+          "alternateNames": [
+            "Mozambique",
+            "Republic of Mozambique"
+          ],
+          "alternateCapitals": [
+            "Maputo"
+          ],
           "pointed_country": "maps/southern_africa/Mozambique.jpeg"
         },
         {
           "id": "na",
           "name": "Namibia",
           "capital": "Windhoek",
-          "alternateNames": ["Namibia", "Republic of Namibia"],
-          "alternateCapitals": ["Windhoek"],
+          "alternateNames": [
+            "Namibia",
+            "Republic of Namibia"
+          ],
+          "alternateCapitals": [
+            "Windhoek"
+          ],
           "pointed_country": "maps/southern_africa/Namibia.jpeg"
         },
         {
           "id": "ne",
           "name": "Niger",
           "capital": "Niamey",
-          "alternateNames": ["Niger", "Republic of Niger"],
-          "alternateCapitals": ["Niamey"],
+          "alternateNames": [
+            "Niger",
+            "Republic of Niger"
+          ],
+          "alternateCapitals": [
+            "Niamey"
+          ],
           "pointed_country": "maps/whole_africa/Niger.jpeg"
         },
         {
           "id": "ng",
           "name": "Nigeria",
           "capital": "Abuja",
-          "alternateNames": ["Nigeria", "Federal Republic of Nigeria"],
-          "alternateCapitals": ["Abuja"],
+          "alternateNames": [
+            "Nigeria",
+            "Federal Republic of Nigeria"
+          ],
+          "alternateCapitals": [
+            "Abuja"
+          ],
           "pointed_country": "maps/whole_africa/Nigeria.jpeg"
         },
         {
           "id": "rw",
           "name": "Rwanda",
           "capital": "Kigali",
-          "alternateNames": ["Rwanda", "Republic of Rwanda"],
-          "alternateCapitals": ["Kigali"],
+          "alternateNames": [
+            "Rwanda",
+            "Republic of Rwanda"
+          ],
+          "alternateCapitals": [
+            "Kigali"
+          ],
           "pointed_country": "maps/southern_africa/Rwanda.jpeg"
         },
         {
           "id": "st",
           "name": "Sao Tome and Principe",
           "capital": "Sao Tome",
-          "alternateNames": ["Sao Tome and Principe", "Democratic Republic of Sao Tome and Principe"],
-          "alternateCapitals": ["Sao Tome"],
+          "alternateNames": [
+            "Sao Tome and Principe",
+            "Democratic Republic of Sao Tome and Principe"
+          ],
+          "alternateCapitals": [
+            "Sao Tome"
+          ],
           "pointed_country": "maps/whole_africa/Sao Tome and Principe.jpeg"
         },
         {
           "id": "sn",
           "name": "Senegal",
           "capital": "Dakar",
-          "alternateNames": ["Senegal", "Republic of Senegal"],
-          "alternateCapitals": ["Dakar"],
+          "alternateNames": [
+            "Senegal",
+            "Republic of Senegal"
+          ],
+          "alternateCapitals": [
+            "Dakar"
+          ],
           "pointed_country": "maps/whole_africa/Senegal.jpeg"
         },
         {
           "id": "sc",
           "name": "Seychelles",
           "capital": "Victoria",
-          "alternateNames": ["Seychelles", "Republic of Seychelles"],
-          "alternateCapitals": ["Victoria"],
+          "alternateNames": [
+            "Seychelles",
+            "Republic of Seychelles"
+          ],
+          "alternateCapitals": [
+            "Victoria"
+          ],
           "pointed_country": "maps/southern_africa/Seychelles.jpeg"
         },
         {
           "id": "sl",
           "name": "Sierra Leone",
           "capital": "Freetown",
-          "alternateNames": ["Sierra Leone", "Republic of Sierra Leone"],
-          "alternateCapitals": ["Freetown"],
+          "alternateNames": [
+            "Sierra Leone",
+            "Republic of Sierra Leone"
+          ],
+          "alternateCapitals": [
+            "Freetown"
+          ],
           "pointed_country": "maps/whole_africa/Sierra Leone.jpeg"
         },
         {
           "id": "so",
           "name": "Somalia",
           "capital": "Mogadishu",
-          "alternateNames": ["Somalia", "Federal Republic of Somalia"],
-          "alternateCapitals": ["Mogadishu"],
+          "alternateNames": [
+            "Somalia",
+            "Federal Republic of Somalia"
+          ],
+          "alternateCapitals": [
+            "Mogadishu"
+          ],
           "pointed_country": "maps/whole_africa/Somalia.jpeg"
         },
         {
           "id": "za",
           "name": "South Africa",
           "capital": "Pretoria",
-          "alternateNames": ["South Africa", "Republic of South Africa"],
-          "alternateCapitals": ["Pretoria", "Cape Town", "Bloemfontein"],
+          "alternateNames": [
+            "South Africa",
+            "Republic of South Africa"
+          ],
+          "alternateCapitals": [
+            "Pretoria",
+            "Cape Town",
+            "Bloemfontein"
+          ],
           "pointed_country": "maps/southern_africa/South Africa.jpeg"
         },
         {
           "id": "ss",
           "name": "South Sudan",
           "capital": "Juba",
-          "alternateNames": ["South Sudan", "Republic of South Sudan"],
-          "alternateCapitals": ["Juba"],
+          "alternateNames": [
+            "South Sudan",
+            "Republic of South Sudan"
+          ],
+          "alternateCapitals": [
+            "Juba"
+          ],
           "pointed_country": "maps/whole_africa/South Sudan.jpeg"
         },
         {
           "id": "sd",
           "name": "Sudan",
           "capital": "Khartoum",
-          "alternateNames": ["Sudan", "Republic of Sudan"],
-          "alternateCapitals": ["Khartoum"],
+          "alternateNames": [
+            "Sudan",
+            "Republic of Sudan"
+          ],
+          "alternateCapitals": [
+            "Khartoum"
+          ],
           "pointed_country": "maps/whole_africa/Sudan.jpeg"
         },
         {
           "id": "tz",
           "name": "Tanzania",
           "capital": "Dodoma",
-          "alternateNames": ["Tanzania", "United Republic of Tanzania"],
-          "alternateCapitals": ["Dodoma", "Dar es Salaam"],
+          "alternateNames": [
+            "Tanzania",
+            "United Republic of Tanzania"
+          ],
+          "alternateCapitals": [
+            "Dodoma",
+            "Dar es Salaam"
+          ],
           "pointed_country": "maps/southern_africa/Tanzania.jpeg"
         },
         {
           "id": "tg",
           "name": "Togo",
           "capital": "Lome",
-          "alternateNames": ["Togo", "Togolese Republic"],
-          "alternateCapitals": ["Lome"],
+          "alternateNames": [
+            "Togo",
+            "Togolese Republic"
+          ],
+          "alternateCapitals": [
+            "Lome"
+          ],
           "pointed_country": "maps/whole_africa/Togo.jpeg"
         },
         {
           "id": "tn",
           "name": "Tunisia",
           "capital": "Tunis",
-          "alternateNames": ["Tunisia", "Tunisian Republic"],
-          "alternateCapitals": ["Tunis"],
+          "alternateNames": [
+            "Tunisia",
+            "Tunisian Republic"
+          ],
+          "alternateCapitals": [
+            "Tunis"
+          ],
           "pointed_country": "maps/whole_africa/Tunisia.jpeg"
         },
         {
           "id": "ug",
           "name": "Uganda",
           "capital": "Kampala",
-          "alternateNames": ["Uganda", "Republic of Uganda"],
-          "alternateCapitals": ["Kampala"],
+          "alternateNames": [
+            "Uganda",
+            "Republic of Uganda"
+          ],
+          "alternateCapitals": [
+            "Kampala"
+          ],
           "pointed_country": "maps/whole_africa/Uganda.jpeg"
         },
         {
           "id": "zm",
           "name": "Zambia",
           "capital": "Lusaka",
-          "alternateNames": ["Zambia", "Republic of Zambia"],
-          "alternateCapitals": ["Lusaka"],
+          "alternateNames": [
+            "Zambia",
+            "Republic of Zambia"
+          ],
+          "alternateCapitals": [
+            "Lusaka"
+          ],
           "pointed_country": "maps/southern_africa/Zambia.jpeg"
         },
         {
           "id": "zw",
           "name": "Zimbabwe",
           "capital": "Harare",
-          "alternateNames": ["Zimbabwe", "Republic of Zimbabwe"],
-          "alternateCapitals": ["Harare"],
+          "alternateNames": [
+            "Zimbabwe",
+            "Republic of Zimbabwe"
+          ],
+          "alternateCapitals": [
+            "Harare"
+          ],
           "pointed_country": "maps/southern_africa/Zimbabwe.jpeg"
         }
       ]
@@ -450,151 +742,922 @@
     "southern_africa": {
       "id": "southern_africa",
       "name": "Southern Africa",
+      "entityLabel": "country",
       "mapImage": "maps/southern_africa.jpg",
+      "questionTypes": [
+        "pointed_country",
+        "capital",
+        "reverse_capital"
+      ],
       "countries": [
         {
           "id": "ao",
           "name": "Angola",
           "capital": "Luanda",
-          "alternateNames": ["Angola", "Republic of Angola"],
-          "alternateCapitals": ["Luanda"],
+          "alternateNames": [
+            "Angola",
+            "Republic of Angola"
+          ],
+          "alternateCapitals": [
+            "Luanda"
+          ],
           "pointed_country": "maps/southern_africa/Angola.jpg"
         },
         {
           "id": "bw",
           "name": "Botswana",
           "capital": "Gaborone",
-          "alternateNames": ["Botswana", "Republic of Botswana"],
-          "alternateCapitals": ["Gaborone"],
+          "alternateNames": [
+            "Botswana",
+            "Republic of Botswana"
+          ],
+          "alternateCapitals": [
+            "Gaborone"
+          ],
           "pointed_country": "maps/southern_africa/Botswana.jpg"
         },
         {
           "id": "bi",
           "name": "Burundi",
           "capital": "Gitega",
-          "alternateNames": ["Burundi", "Republic of Burundi"],
-          "alternateCapitals": ["Gitega", "Bujumbura"],
+          "alternateNames": [
+            "Burundi",
+            "Republic of Burundi"
+          ],
+          "alternateCapitals": [
+            "Gitega",
+            "Bujumbura"
+          ],
           "pointed_country": "maps/southern_africa/Burundi.jpeg"
         },
         {
           "id": "km",
           "name": "Comoros",
           "capital": "Moroni",
-          "alternateNames": ["Comoros", "Union of the Comoros"],
-          "alternateCapitals": ["Moroni"],
+          "alternateNames": [
+            "Comoros",
+            "Union of the Comoros"
+          ],
+          "alternateCapitals": [
+            "Moroni"
+          ],
           "pointed_country": "maps/southern_africa/Comoros.jpg"
         },
         {
           "id": "cd",
           "name": "Democratic Republic of the Congo",
           "capital": "Kinshasa",
-          "alternateNames": ["Democratic Republic of the Congo", "DRC", "DR Congo", "Congo-Kinshasa"],
-          "alternateCapitals": ["Kinshasa"],
+          "alternateNames": [
+            "Democratic Republic of the Congo",
+            "DRC",
+            "DR Congo",
+            "Congo-Kinshasa"
+          ],
+          "alternateCapitals": [
+            "Kinshasa"
+          ],
           "pointed_country": "maps/southern_africa/DRC.jpeg"
         },
         {
           "id": "sz",
           "name": "Eswatini",
           "capital": "Mbabane",
-          "alternateNames": ["Eswatini", "Swaziland", "Kingdom of Eswatini", "Kingdom of Swaziland"],
-          "alternateCapitals": ["Mbabane", "Lobamba"],
+          "alternateNames": [
+            "Eswatini",
+            "Swaziland",
+            "Kingdom of Eswatini",
+            "Kingdom of Swaziland"
+          ],
+          "alternateCapitals": [
+            "Mbabane",
+            "Lobamba"
+          ],
           "pointed_country": "maps/southern_africa/Eswatini.jpeg"
         },
         {
           "id": "ls",
           "name": "Lesotho",
           "capital": "Maseru",
-          "alternateNames": ["Lesotho", "Kingdom of Lesotho"],
-          "alternateCapitals": ["Maseru"],
+          "alternateNames": [
+            "Lesotho",
+            "Kingdom of Lesotho"
+          ],
+          "alternateCapitals": [
+            "Maseru"
+          ],
           "pointed_country": "maps/southern_africa/Lesotho.jpeg"
         },
         {
           "id": "mg",
           "name": "Madagascar",
           "capital": "Antananarivo",
-          "alternateNames": ["Madagascar", "Republic of Madagascar"],
-          "alternateCapitals": ["Antananarivo"],
+          "alternateNames": [
+            "Madagascar",
+            "Republic of Madagascar"
+          ],
+          "alternateCapitals": [
+            "Antananarivo"
+          ],
           "pointed_country": "maps/southern_africa/Madagascar.jpeg"
         },
         {
           "id": "mw",
           "name": "Malawi",
           "capital": "Lilongwe",
-          "alternateNames": ["Malawi", "Republic of Malawi"],
-          "alternateCapitals": ["Lilongwe"],
+          "alternateNames": [
+            "Malawi",
+            "Republic of Malawi"
+          ],
+          "alternateCapitals": [
+            "Lilongwe"
+          ],
           "pointed_country": "maps/southern_africa/Malawi.jpeg"
         },
         {
           "id": "mu",
           "name": "Mauritius",
           "capital": "Port Louis",
-          "alternateNames": ["Mauritius", "Republic of Mauritius"],
-          "alternateCapitals": ["Port Louis"],
+          "alternateNames": [
+            "Mauritius",
+            "Republic of Mauritius"
+          ],
+          "alternateCapitals": [
+            "Port Louis"
+          ],
           "pointed_country": "maps/southern_africa/Mauritius.jpg"
         },
         {
           "id": "mz",
           "name": "Mozambique",
           "capital": "Maputo",
-          "alternateNames": ["Mozambique", "Republic of Mozambique"],
-          "alternateCapitals": ["Maputo"],
+          "alternateNames": [
+            "Mozambique",
+            "Republic of Mozambique"
+          ],
+          "alternateCapitals": [
+            "Maputo"
+          ],
           "pointed_country": "maps/southern_africa/Mozambique.jpeg"
         },
         {
           "id": "na",
           "name": "Namibia",
           "capital": "Windhoek",
-          "alternateNames": ["Namibia", "Republic of Namibia"],
-          "alternateCapitals": ["Windhoek"],
+          "alternateNames": [
+            "Namibia",
+            "Republic of Namibia"
+          ],
+          "alternateCapitals": [
+            "Windhoek"
+          ],
           "pointed_country": "maps/southern_africa/Namibia.jpeg"
         },
         {
           "id": "rw",
           "name": "Rwanda",
           "capital": "Kigali",
-          "alternateNames": ["Rwanda", "Republic of Rwanda"],
-          "alternateCapitals": ["Kigali"],
+          "alternateNames": [
+            "Rwanda",
+            "Republic of Rwanda"
+          ],
+          "alternateCapitals": [
+            "Kigali"
+          ],
           "pointed_country": "maps/southern_africa/Rwanda.jpeg"
         },
         {
           "id": "sc",
           "name": "Seychelles",
           "capital": "Victoria",
-          "alternateNames": ["Seychelles", "Republic of Seychelles"],
-          "alternateCapitals": ["Victoria"],
+          "alternateNames": [
+            "Seychelles",
+            "Republic of Seychelles"
+          ],
+          "alternateCapitals": [
+            "Victoria"
+          ],
           "pointed_country": "maps/southern_africa/Seychelles.jpeg"
         },
         {
           "id": "za",
           "name": "South Africa",
           "capital": "Pretoria",
-          "alternateNames": ["South Africa", "Republic of South Africa"],
-          "alternateCapitals": ["Pretoria", "Cape Town", "Bloemfontein"],
+          "alternateNames": [
+            "South Africa",
+            "Republic of South Africa"
+          ],
+          "alternateCapitals": [
+            "Pretoria",
+            "Cape Town",
+            "Bloemfontein"
+          ],
           "pointed_country": "maps/southern_africa/South Africa.jpeg"
         },
         {
           "id": "tz",
           "name": "Tanzania",
           "capital": "Dodoma",
-          "alternateNames": ["Tanzania", "United Republic of Tanzania"],
-          "alternateCapitals": ["Dodoma", "Dar es Salaam"],
+          "alternateNames": [
+            "Tanzania",
+            "United Republic of Tanzania"
+          ],
+          "alternateCapitals": [
+            "Dodoma",
+            "Dar es Salaam"
+          ],
           "pointed_country": "maps/southern_africa/Tanzania.jpeg"
         },
         {
           "id": "zm",
           "name": "Zambia",
           "capital": "Lusaka",
-          "alternateNames": ["Zambia", "Republic of Zambia"],
-          "alternateCapitals": ["Lusaka"],
+          "alternateNames": [
+            "Zambia",
+            "Republic of Zambia"
+          ],
+          "alternateCapitals": [
+            "Lusaka"
+          ],
           "pointed_country": "maps/southern_africa/Zambia.jpeg"
         },
         {
           "id": "zw",
           "name": "Zimbabwe",
           "capital": "Harare",
-          "alternateNames": ["Zimbabwe", "Republic of Zimbabwe"],
-          "alternateCapitals": ["Harare"],
+          "alternateNames": [
+            "Zimbabwe",
+            "Republic of Zimbabwe"
+          ],
+          "alternateCapitals": [
+            "Harare"
+          ],
           "pointed_country": "maps/southern_africa/Zimbabwe.jpeg"
+        }
+      ]
+    },
+    "us_states": {
+      "id": "us_states",
+      "name": "US States",
+      "entityLabel": "state",
+      "mapImage": "maps/us/us_states_numbered.png",
+      "numberedMapImage": "maps/us/us_states_numbered.png",
+      "questionTypes": [
+        "numbered_region",
+        "capital",
+        "reverse_capital"
+      ],
+      "countries": [
+        {
+          "id": "wa",
+          "name": "Washington",
+          "capital": "Olympia",
+          "alternateNames": [
+            "Washington",
+            "State of Washington"
+          ],
+          "alternateCapitals": [
+            "Olympia"
+          ],
+          "mapNumber": 1
+        },
+        {
+          "id": "or",
+          "name": "Oregon",
+          "capital": "Salem",
+          "alternateNames": [
+            "Oregon",
+            "State of Oregon"
+          ],
+          "alternateCapitals": [
+            "Salem"
+          ],
+          "mapNumber": 2
+        },
+        {
+          "id": "ca",
+          "name": "California",
+          "capital": "Sacramento",
+          "alternateNames": [
+            "California",
+            "State of California"
+          ],
+          "alternateCapitals": [
+            "Sacramento"
+          ],
+          "mapNumber": 3
+        },
+        {
+          "id": "id",
+          "name": "Idaho",
+          "capital": "Boise",
+          "alternateNames": [
+            "Idaho",
+            "State of Idaho"
+          ],
+          "alternateCapitals": [
+            "Boise"
+          ],
+          "mapNumber": 4
+        },
+        {
+          "id": "nv",
+          "name": "Nevada",
+          "capital": "Carson City",
+          "alternateNames": [
+            "Nevada",
+            "State of Nevada"
+          ],
+          "alternateCapitals": [
+            "Carson City"
+          ],
+          "mapNumber": 5
+        },
+        {
+          "id": "mt",
+          "name": "Montana",
+          "capital": "Helena",
+          "alternateNames": [
+            "Montana",
+            "State of Montana"
+          ],
+          "alternateCapitals": [
+            "Helena"
+          ],
+          "mapNumber": 6
+        },
+        {
+          "id": "wy",
+          "name": "Wyoming",
+          "capital": "Cheyenne",
+          "alternateNames": [
+            "Wyoming",
+            "State of Wyoming"
+          ],
+          "alternateCapitals": [
+            "Cheyenne"
+          ],
+          "mapNumber": 7
+        },
+        {
+          "id": "ut",
+          "name": "Utah",
+          "capital": "Salt Lake City",
+          "alternateNames": [
+            "Utah",
+            "State of Utah"
+          ],
+          "alternateCapitals": [
+            "Salt Lake City"
+          ],
+          "mapNumber": 8
+        },
+        {
+          "id": "az",
+          "name": "Arizona",
+          "capital": "Phoenix",
+          "alternateNames": [
+            "Arizona",
+            "State of Arizona"
+          ],
+          "alternateCapitals": [
+            "Phoenix"
+          ],
+          "mapNumber": 9
+        },
+        {
+          "id": "nm",
+          "name": "New Mexico",
+          "capital": "Santa Fe",
+          "alternateNames": [
+            "New Mexico",
+            "State of New Mexico"
+          ],
+          "alternateCapitals": [
+            "Santa Fe"
+          ],
+          "mapNumber": 10
+        },
+        {
+          "id": "co",
+          "name": "Colorado",
+          "capital": "Denver",
+          "alternateNames": [
+            "Colorado",
+            "State of Colorado"
+          ],
+          "alternateCapitals": [
+            "Denver"
+          ],
+          "mapNumber": 11
+        },
+        {
+          "id": "nd",
+          "name": "North Dakota",
+          "capital": "Bismarck",
+          "alternateNames": [
+            "North Dakota",
+            "State of North Dakota"
+          ],
+          "alternateCapitals": [
+            "Bismarck"
+          ],
+          "mapNumber": 12
+        },
+        {
+          "id": "sd",
+          "name": "South Dakota",
+          "capital": "Pierre",
+          "alternateNames": [
+            "South Dakota",
+            "State of South Dakota"
+          ],
+          "alternateCapitals": [
+            "Pierre"
+          ],
+          "mapNumber": 13
+        },
+        {
+          "id": "ne",
+          "name": "Nebraska",
+          "capital": "Lincoln",
+          "alternateNames": [
+            "Nebraska",
+            "State of Nebraska"
+          ],
+          "alternateCapitals": [
+            "Lincoln"
+          ],
+          "mapNumber": 14
+        },
+        {
+          "id": "ks",
+          "name": "Kansas",
+          "capital": "Topeka",
+          "alternateNames": [
+            "Kansas",
+            "State of Kansas"
+          ],
+          "alternateCapitals": [
+            "Topeka"
+          ],
+          "mapNumber": 15
+        },
+        {
+          "id": "ok",
+          "name": "Oklahoma",
+          "capital": "Oklahoma City",
+          "alternateNames": [
+            "Oklahoma",
+            "State of Oklahoma"
+          ],
+          "alternateCapitals": [
+            "Oklahoma City"
+          ],
+          "mapNumber": 16
+        },
+        {
+          "id": "tx",
+          "name": "Texas",
+          "capital": "Austin",
+          "alternateNames": [
+            "Texas",
+            "State of Texas"
+          ],
+          "alternateCapitals": [
+            "Austin"
+          ],
+          "mapNumber": 17
+        },
+        {
+          "id": "mn",
+          "name": "Minnesota",
+          "capital": "Saint Paul",
+          "alternateNames": [
+            "Minnesota",
+            "State of Minnesota"
+          ],
+          "alternateCapitals": [
+            "Saint Paul",
+            "St Paul"
+          ],
+          "mapNumber": 18
+        },
+        {
+          "id": "ia",
+          "name": "Iowa",
+          "capital": "Des Moines",
+          "alternateNames": [
+            "Iowa",
+            "State of Iowa"
+          ],
+          "alternateCapitals": [
+            "Des Moines"
+          ],
+          "mapNumber": 19
+        },
+        {
+          "id": "mo",
+          "name": "Missouri",
+          "capital": "Jefferson City",
+          "alternateNames": [
+            "Missouri",
+            "State of Missouri"
+          ],
+          "alternateCapitals": [
+            "Jefferson City"
+          ],
+          "mapNumber": 20
+        },
+        {
+          "id": "ar",
+          "name": "Arkansas",
+          "capital": "Little Rock",
+          "alternateNames": [
+            "Arkansas",
+            "State of Arkansas"
+          ],
+          "alternateCapitals": [
+            "Little Rock"
+          ],
+          "mapNumber": 21
+        },
+        {
+          "id": "la",
+          "name": "Louisiana",
+          "capital": "Baton Rouge",
+          "alternateNames": [
+            "Louisiana",
+            "State of Louisiana"
+          ],
+          "alternateCapitals": [
+            "Baton Rouge"
+          ],
+          "mapNumber": 22
+        },
+        {
+          "id": "wi",
+          "name": "Wisconsin",
+          "capital": "Madison",
+          "alternateNames": [
+            "Wisconsin",
+            "State of Wisconsin"
+          ],
+          "alternateCapitals": [
+            "Madison"
+          ],
+          "mapNumber": 23
+        },
+        {
+          "id": "il",
+          "name": "Illinois",
+          "capital": "Springfield",
+          "alternateNames": [
+            "Illinois",
+            "State of Illinois"
+          ],
+          "alternateCapitals": [
+            "Springfield"
+          ],
+          "mapNumber": 24
+        },
+        {
+          "id": "in",
+          "name": "Indiana",
+          "capital": "Indianapolis",
+          "alternateNames": [
+            "Indiana",
+            "State of Indiana"
+          ],
+          "alternateCapitals": [
+            "Indianapolis"
+          ],
+          "mapNumber": 25
+        },
+        {
+          "id": "mi",
+          "name": "Michigan",
+          "capital": "Lansing",
+          "alternateNames": [
+            "Michigan",
+            "State of Michigan"
+          ],
+          "alternateCapitals": [
+            "Lansing"
+          ],
+          "mapNumber": 26
+        },
+        {
+          "id": "oh",
+          "name": "Ohio",
+          "capital": "Columbus",
+          "alternateNames": [
+            "Ohio",
+            "State of Ohio"
+          ],
+          "alternateCapitals": [
+            "Columbus"
+          ],
+          "mapNumber": 27
+        },
+        {
+          "id": "ky",
+          "name": "Kentucky",
+          "capital": "Frankfort",
+          "alternateNames": [
+            "Kentucky",
+            "Commonwealth of Kentucky"
+          ],
+          "alternateCapitals": [
+            "Frankfort"
+          ],
+          "mapNumber": 28
+        },
+        {
+          "id": "tn",
+          "name": "Tennessee",
+          "capital": "Nashville",
+          "alternateNames": [
+            "Tennessee",
+            "State of Tennessee"
+          ],
+          "alternateCapitals": [
+            "Nashville"
+          ],
+          "mapNumber": 29
+        },
+        {
+          "id": "ms",
+          "name": "Mississippi",
+          "capital": "Jackson",
+          "alternateNames": [
+            "Mississippi",
+            "State of Mississippi"
+          ],
+          "alternateCapitals": [
+            "Jackson"
+          ],
+          "mapNumber": 30
+        },
+        {
+          "id": "al",
+          "name": "Alabama",
+          "capital": "Montgomery",
+          "alternateNames": [
+            "Alabama",
+            "State of Alabama"
+          ],
+          "alternateCapitals": [
+            "Montgomery"
+          ],
+          "mapNumber": 31
+        },
+        {
+          "id": "ga",
+          "name": "Georgia",
+          "capital": "Atlanta",
+          "alternateNames": [
+            "Georgia",
+            "State of Georgia"
+          ],
+          "alternateCapitals": [
+            "Atlanta"
+          ],
+          "mapNumber": 32
+        },
+        {
+          "id": "fl",
+          "name": "Florida",
+          "capital": "Tallahassee",
+          "alternateNames": [
+            "Florida",
+            "State of Florida"
+          ],
+          "alternateCapitals": [
+            "Tallahassee"
+          ],
+          "mapNumber": 33
+        },
+        {
+          "id": "sc",
+          "name": "South Carolina",
+          "capital": "Columbia",
+          "alternateNames": [
+            "South Carolina",
+            "State of South Carolina"
+          ],
+          "alternateCapitals": [
+            "Columbia"
+          ],
+          "mapNumber": 34
+        },
+        {
+          "id": "nc",
+          "name": "North Carolina",
+          "capital": "Raleigh",
+          "alternateNames": [
+            "North Carolina",
+            "State of North Carolina"
+          ],
+          "alternateCapitals": [
+            "Raleigh"
+          ],
+          "mapNumber": 35
+        },
+        {
+          "id": "va",
+          "name": "Virginia",
+          "capital": "Richmond",
+          "alternateNames": [
+            "Virginia",
+            "Commonwealth of Virginia"
+          ],
+          "alternateCapitals": [
+            "Richmond"
+          ],
+          "mapNumber": 36
+        },
+        {
+          "id": "wv",
+          "name": "West Virginia",
+          "capital": "Charleston",
+          "alternateNames": [
+            "West Virginia",
+            "State of West Virginia"
+          ],
+          "alternateCapitals": [
+            "Charleston"
+          ],
+          "mapNumber": 37
+        },
+        {
+          "id": "pa",
+          "name": "Pennsylvania",
+          "capital": "Harrisburg",
+          "alternateNames": [
+            "Pennsylvania",
+            "Commonwealth of Pennsylvania"
+          ],
+          "alternateCapitals": [
+            "Harrisburg"
+          ],
+          "mapNumber": 38
+        },
+        {
+          "id": "ny",
+          "name": "New York",
+          "capital": "Albany",
+          "alternateNames": [
+            "New York",
+            "State of New York"
+          ],
+          "alternateCapitals": [
+            "Albany"
+          ],
+          "mapNumber": 39
+        },
+        {
+          "id": "vt",
+          "name": "Vermont",
+          "capital": "Montpelier",
+          "alternateNames": [
+            "Vermont",
+            "State of Vermont"
+          ],
+          "alternateCapitals": [
+            "Montpelier"
+          ],
+          "mapNumber": 40
+        },
+        {
+          "id": "nh",
+          "name": "New Hampshire",
+          "capital": "Concord",
+          "alternateNames": [
+            "New Hampshire",
+            "State of New Hampshire"
+          ],
+          "alternateCapitals": [
+            "Concord"
+          ],
+          "mapNumber": 41
+        },
+        {
+          "id": "me",
+          "name": "Maine",
+          "capital": "Augusta",
+          "alternateNames": [
+            "Maine",
+            "State of Maine"
+          ],
+          "alternateCapitals": [
+            "Augusta"
+          ],
+          "mapNumber": 42
+        },
+        {
+          "id": "ma",
+          "name": "Massachusetts",
+          "capital": "Boston",
+          "alternateNames": [
+            "Massachusetts",
+            "Commonwealth of Massachusetts"
+          ],
+          "alternateCapitals": [
+            "Boston"
+          ],
+          "mapNumber": 43
+        },
+        {
+          "id": "ri",
+          "name": "Rhode Island",
+          "capital": "Providence",
+          "alternateNames": [
+            "Rhode Island",
+            "State of Rhode Island",
+            "Rhode Island and Providence Plantations"
+          ],
+          "alternateCapitals": [
+            "Providence"
+          ],
+          "mapNumber": 44
+        },
+        {
+          "id": "ct",
+          "name": "Connecticut",
+          "capital": "Hartford",
+          "alternateNames": [
+            "Connecticut",
+            "State of Connecticut"
+          ],
+          "alternateCapitals": [
+            "Hartford"
+          ],
+          "mapNumber": 45
+        },
+        {
+          "id": "nj",
+          "name": "New Jersey",
+          "capital": "Trenton",
+          "alternateNames": [
+            "New Jersey",
+            "State of New Jersey"
+          ],
+          "alternateCapitals": [
+            "Trenton"
+          ],
+          "mapNumber": 46
+        },
+        {
+          "id": "de",
+          "name": "Delaware",
+          "capital": "Dover",
+          "alternateNames": [
+            "Delaware",
+            "State of Delaware"
+          ],
+          "alternateCapitals": [
+            "Dover"
+          ],
+          "mapNumber": 47
+        },
+        {
+          "id": "md",
+          "name": "Maryland",
+          "capital": "Annapolis",
+          "alternateNames": [
+            "Maryland",
+            "State of Maryland"
+          ],
+          "alternateCapitals": [
+            "Annapolis"
+          ],
+          "mapNumber": 48
+        },
+        {
+          "id": "ak",
+          "name": "Alaska",
+          "capital": "Juneau",
+          "alternateNames": [
+            "Alaska",
+            "State of Alaska"
+          ],
+          "alternateCapitals": [
+            "Juneau"
+          ],
+          "mapNumber": 49
+        },
+        {
+          "id": "hi",
+          "name": "Hawaii",
+          "capital": "Honolulu",
+          "alternateNames": [
+            "Hawaii",
+            "State of Hawaii"
+          ],
+          "alternateCapitals": [
+            "Honolulu"
+          ],
+          "mapNumber": 50
         }
       ]
     }

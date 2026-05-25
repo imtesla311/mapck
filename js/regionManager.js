@@ -14,14 +14,58 @@ class RegionManager {
      */
     async loadRegions() {
         try {
-            const response = await fetch('data/regions.json');
-            const data = await response.json();
-            this.regions = data.regions;
+            this.regions = await this.loadFromIndex();
             return this.regions;
         } catch (error) {
-            console.error('Failed to load regions:', error);
-            throw new Error('Failed to load region data');
+            console.warn('Failed to load region index, falling back to legacy data/regions.json:', error);
+
+            try {
+                this.regions = await this.loadLegacyRegions();
+                return this.regions;
+            } catch (legacyError) {
+                console.error('Failed to load regions:', legacyError);
+                throw new Error('Failed to load region data');
+            }
         }
+    }
+
+    /**
+     * Load regions from manifest + per-region files
+     */
+    async loadFromIndex() {
+        const response = await fetch('data/index.json');
+        if (!response.ok) {
+            throw new Error(`Failed to load data/index.json: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const entries = Array.isArray(data.regions) ? data.regions : [];
+        const regionResponses = await Promise.all(
+            entries.map(async ({ id, file }) => {
+                const regionResponse = await fetch(`data/${file}`);
+                if (!regionResponse.ok) {
+                    throw new Error(`Failed to load ${file}: ${regionResponse.status}`);
+                }
+
+                const region = await regionResponse.json();
+                return [id || region.id, region];
+            })
+        );
+
+        return Object.fromEntries(regionResponses);
+    }
+
+    /**
+     * Load regions from the legacy single-file format
+     */
+    async loadLegacyRegions() {
+        const response = await fetch('data/regions.json');
+        if (!response.ok) {
+            throw new Error(`Failed to load data/regions.json: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return data.regions;
     }
 
     /**

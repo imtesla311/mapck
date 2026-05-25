@@ -39,74 +39,112 @@ class QuizEngine {
      * Generate questions for a region
      */
     generateQuestions(regionId) {
-        const countries = this.regionManager.getRegion(regionId)?.countries || [];
-        const questions = [];
         const region = this.regionManager.getRegion(regionId);
-        const defaultMapImage = region ? region.mapImage : null;
+        const countries = region?.countries || [];
+        const questions = [];
+        const questionTypes = this.getQuestionTypes(region);
 
-        // Generate 3 questions per country: pointed country, capital, and reverse capital
         countries.forEach(country => {
-            // Question: What country is pointed to in this image?
-            const pointedImage = this.getQuestionImage(country, 'pointed_country', defaultMapImage);
-            const pointedQuestion = {
-                type: 'pointed_country',
-                country: country,
-                question: 'What country is pointed to in this image?',
-                correctAnswer: country.name,
-                alternateAnswers: country.alternateNames,
-                image: pointedImage
-            };
-            console.log('Generated pointed_country question for', country.name, 'with image:', pointedImage);
-            questions.push(pointedQuestion);
-
-            // Question: What is the capital city?
-            const capitalImage = this.getQuestionImage(country, 'capital', defaultMapImage);
-            const capitalQuestion = {
-                type: 'capital',
-                country: country,
-                question: `What is the capital city of ${country.name}?`,
-                correctAnswer: country.capital,
-                alternateAnswers: country.alternateCapitals,
-                image: capitalImage
-            };
-            console.log('Generated capital question for', country.name, 'with image:', capitalImage);
-            questions.push(capitalQuestion);
-
-            // Question: [Capital] is the capital of which country?
-            const reverseCapitalImage = this.getQuestionImage(country, 'capital', defaultMapImage);
-            const reverseCapitalQuestion = {
-                type: 'reverse_capital',
-                country: country,
-                question: `${country.capital} is the capital of which country?`,
-                correctAnswer: country.name,
-                alternateAnswers: country.alternateNames,
-                image: reverseCapitalImage
-            };
-            console.log('Generated reverse_capital question for', country.name, 'with image:', reverseCapitalImage);
-            questions.push(reverseCapitalQuestion);
+            questionTypes.forEach(questionType => {
+                const question = this.createQuestion(questionType, country, region);
+                if (question) {
+                    questions.push(question);
+                }
+            });
         });
 
-        // Shuffle questions
         return this.shuffleArray(questions);
+    }
+
+    /**
+     * Get enabled question types for a region
+     */
+    getQuestionTypes(region) {
+        if (Array.isArray(region?.questionTypes) && region.questionTypes.length > 0) {
+            return region.questionTypes;
+        }
+
+        return ['pointed_country', 'capital', 'reverse_capital'];
+    }
+
+    /**
+     * Create a question object for a given type
+     */
+    createQuestion(questionType, country, region) {
+        const entityLabel = this.getEntityLabel(region);
+
+        switch (questionType) {
+            case 'pointed_country':
+                return {
+                    type: 'pointed_country',
+                    country,
+                    question: `What ${entityLabel} is pointed to in this image?`,
+                    correctAnswer: country.name,
+                    alternateAnswers: country.alternateNames,
+                    image: this.getQuestionImage(country, 'pointed_country', region)
+                };
+            case 'capital':
+                return {
+                    type: 'capital',
+                    country,
+                    question: `What is the capital city of ${country.name}?`,
+                    correctAnswer: country.capital,
+                    alternateAnswers: country.alternateCapitals,
+                    image: this.getQuestionImage(country, 'capital', region)
+                };
+            case 'reverse_capital':
+                return {
+                    type: 'reverse_capital',
+                    country,
+                    question: `${country.capital} is the capital of which ${entityLabel}?`,
+                    correctAnswer: country.name,
+                    alternateAnswers: country.alternateNames,
+                    image: this.getQuestionImage(country, 'capital', region)
+                };
+            case 'numbered_region':
+                if (!region?.numberedMapImage || country.mapNumber === undefined || country.mapNumber === null) {
+                    return null;
+                }
+
+                return {
+                    type: 'numbered_region',
+                    country,
+                    question: `What ${entityLabel} is number ${country.mapNumber} on this map?`,
+                    correctAnswer: country.name,
+                    alternateAnswers: country.alternateNames,
+                    image: this.getQuestionImage(country, 'numbered_region', region)
+                };
+            default:
+                return null;
+        }
+    }
+
+    /**
+     * Get the entity label for prompts
+     */
+    getEntityLabel(region) {
+        return region?.entityLabel || 'country';
     }
 
     /**
      * Get the image path for a question
      * Falls back to default map image if no specific image is defined
      */
-    getQuestionImage(country, questionType, defaultImage) {
-        // For pointed_country questions, use pointed_country image if available
+    getQuestionImage(country, questionType, region) {
+        const defaultImage = region ? region.mapImage : null;
+
+        if (questionType === 'numbered_region' && region?.numberedMapImage) {
+            return region.numberedMapImage;
+        }
+
         if (questionType === 'pointed_country' && country.pointed_country) {
-            console.log('getQuestionImage - pointed_country:', country.name, 'path:', country.pointed_country);
             return country.pointed_country;
         }
-        // Check if country has questionImages defined (for backward compatibility)
+
         if (country.questionImages && country.questionImages[questionType]) {
-            console.log('getQuestionImage - questionImages:', country.name, 'type:', questionType, 'path:', country.questionImages[questionType]);
             return country.questionImages[questionType];
         }
-        // Fall back to default map image
-        console.log('getQuestionImage - default:', defaultImage);
+
         return defaultImage;
     }
 
@@ -145,27 +183,24 @@ class QuizEngine {
         const countries = this.regionManager.getCountries();
         let wrongOptions = [];
 
-        if (question.type === 'pointed_country' || question.type === 'reverse_capital') {
-            // Get random country names as wrong options (exclude current country)
+        if (
+            question.type === 'pointed_country' ||
+            question.type === 'reverse_capital' ||
+            question.type === 'numbered_region'
+        ) {
             wrongOptions = countries
                 .filter(c => c.id !== question.country.id)
                 .map(c => c.name)
-                .filter(name => name !== question.correctAnswer); // Exclude correct answer from wrong options
+                .filter(name => name !== question.correctAnswer);
         } else if (question.type === 'capital') {
-            // Get random capitals as wrong options (exclude current country)
             wrongOptions = countries
                 .filter(c => c.id !== question.country.id)
                 .map(c => c.capital)
-                .filter(capital => capital !== question.correctAnswer); // Exclude correct answer from wrong options
+                .filter(capital => capital !== question.correctAnswer);
         }
 
-        // Shuffle wrong options and take 3
         const selectedWrongOptions = this.shuffleArray(wrongOptions).slice(0, 3);
-
-        // Always include correct answer
         const options = [...selectedWrongOptions, question.correctAnswer];
-
-        // Shuffle all options
         return this.shuffleArray(options);
     }
 
