@@ -16,6 +16,7 @@ class App {
         this.currentRegionId = null;
         this.currentMode = null;
         this.currentQuestionCount = null;
+        this.currentModalImageSrc = '';
     }
 
     /**
@@ -110,6 +111,20 @@ class App {
         });
         document.getElementById('submit-typing-btn').addEventListener('click', () => this.submitTypingAnswer());
 
+        // Image modal events
+        const mapImage = document.getElementById('map-image');
+        mapImage.addEventListener('click', () => this.openImageModal());
+
+        document.getElementById('image-modal-close').addEventListener('click', () => this.closeImageModal());
+        document.querySelector('#image-modal .image-modal-backdrop')
+            .addEventListener('click', () => this.closeImageModal());
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeImageModal();
+            }
+        });
+
         // Results screen events
         document.getElementById('try-again-btn').addEventListener('click', () => this.showScreen('setup'));
         document.getElementById('back-home-btn').addEventListener('click', () => this.showScreen('setup'));
@@ -183,6 +198,8 @@ class App {
             return;
         }
 
+        this.closeImageModal();
+
         // Update progress
         document.getElementById('quiz-progress').textContent =
             `Question ${this.quizEngine.getCurrentQuestionNumber()} of ${this.quizEngine.getTotalQuestions()}`;
@@ -200,6 +217,7 @@ class App {
             mapImage.src = '';
             // Force image reload by adding timestamp to prevent caching
             const imageUrl = question.image + '?t=' + Date.now();
+            this.currentModalImageSrc = imageUrl;
             mapImage.src = imageUrl;
             mapImage.onerror = function() {
                 console.error('Failed to load image:', question.image);
@@ -211,6 +229,8 @@ class App {
         } else {
             // Hide image if no image for this question
             mapImage.style.display = 'none';
+            this.currentModalImageSrc = '';
+            this.closeImageModal();
         }
 
         // Hide highlight overlay (images will have their own highlighting)
@@ -490,6 +510,30 @@ class App {
      */
     showError(message) {
         alert(message);
+    }
+
+    /**
+     * Show the current map in a fullscreen modal
+     */
+    openImageModal() {
+        if (!this.currentModalImageSrc) return;
+
+        const modal = document.getElementById('image-modal');
+        const modalImage = document.getElementById('image-modal-img');
+        modalImage.src = this.currentModalImageSrc;
+        modal.classList.remove('hidden');
+        modal.setAttribute('aria-hidden', 'false');
+    }
+
+    /**
+     * Close the fullscreen image modal
+     */
+    closeImageModal() {
+        const modal = document.getElementById('image-modal');
+        const modalImage = document.getElementById('image-modal-img');
+        modal.classList.add('hidden');
+        modal.setAttribute('aria-hidden', 'true');
+        modalImage.removeAttribute('src');
     }
 }
 
