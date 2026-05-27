@@ -2,8 +2,8 @@
   "id": "us_states",
   "name": "US States",
   "entityLabel": "state",
-  "mapImage": "maps/us/us_states_numbered.png",
-  "numberedMapImage": "maps/us/us_states_numbered.png",
+  "mapImage": "maps/us/usa.jpg",
+  "numberedMapImage": "maps/us/usa.jpg",
   "questionTypes": [
     "numbered_region",
     "capital",
@@ -50,15 +50,15 @@
       "mapNumber": 3
     },
     {
-      "id": "id",
-      "name": "Idaho",
-      "capital": "Boise",
+      "id": "az",
+      "name": "Arizona",
+      "capital": "Phoenix",
       "alternateNames": [
-        "Idaho",
-        "State of Idaho"
+        "Arizona",
+        "State of Arizona"
       ],
       "alternateCapitals": [
-        "Boise"
+        "Phoenix"
       ],
       "mapNumber": 4
     },
@@ -76,6 +76,32 @@
       "mapNumber": 5
     },
     {
+      "id": "ut",
+      "name": "Utah",
+      "capital": "Salt Lake City",
+      "alternateNames": [
+        "Utah",
+        "State of Utah"
+      ],
+      "alternateCapitals": [
+        "Salt Lake City"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "id",
+      "name": "Idaho",
+      "capital": "Boise",
+      "alternateNames": [
+        "Idaho",
+        "State of Idaho"
+      ],
+      "alternateCapitals": [
+        "Boise"
+      ],
+      "mapNumber": 7
+    },
+    {
       "id": "mt",
       "name": "Montana",
       "capital": "Helena",
@@ -86,7 +112,7 @@
       "alternateCapitals": [
         "Helena"
       ],
-      "mapNumber": 6
+      "mapNumber": 8
     },
     {
       "id": "wy",
@@ -99,46 +125,7 @@
       "alternateCapitals": [
         "Cheyenne"
       ],
-      "mapNumber": 7
-    },
-    {
-      "id": "ut",
-      "name": "Utah",
-      "capital": "Salt Lake City",
-      "alternateNames": [
-        "Utah",
-        "State of Utah"
-      ],
-      "alternateCapitals": [
-        "Salt Lake City"
-      ],
-      "mapNumber": 8
-    },
-    {
-      "id": "az",
-      "name": "Arizona",
-      "capital": "Phoenix",
-      "alternateNames": [
-        "Arizona",
-        "State of Arizona"
-      ],
-      "alternateCapitals": [
-        "Phoenix"
-      ],
       "mapNumber": 9
-    },
-    {
-      "id": "nm",
-      "name": "New Mexico",
-      "capital": "Santa Fe",
-      "alternateNames": [
-        "New Mexico",
-        "State of New Mexico"
-      ],
-      "alternateCapitals": [
-        "Santa Fe"
-      ],
-      "mapNumber": 10
     },
     {
       "id": "co",
@@ -151,59 +138,33 @@
       "alternateCapitals": [
         "Denver"
       ],
+      "mapNumber": 10
+    },
+    {
+      "id": "nm",
+      "name": "New Mexico",
+      "capital": "Santa Fe",
+      "alternateNames": [
+        "New Mexico",
+        "State of New Mexico"
+      ],
+      "alternateCapitals": [
+        "Santa Fe"
+      ],
       "mapNumber": 11
     },
     {
-      "id": "nd",
-      "name": "North Dakota",
-      "capital": "Bismarck",
+      "id": "tx",
+      "name": "Texas",
+      "capital": "Austin",
       "alternateNames": [
-        "North Dakota",
-        "State of North Dakota"
+        "Texas",
+        "State of Texas"
       ],
       "alternateCapitals": [
-        "Bismarck"
+        "Austin"
       ],
       "mapNumber": 12
-    },
-    {
-      "id": "sd",
-      "name": "South Dakota",
-      "capital": "Pierre",
-      "alternateNames": [
-        "South Dakota",
-        "State of South Dakota"
-      ],
-      "alternateCapitals": [
-        "Pierre"
-      ],
-      "mapNumber": 13
-    },
-    {
-      "id": "ne",
-      "name": "Nebraska",
-      "capital": "Lincoln",
-      "alternateNames": [
-        "Nebraska",
-        "State of Nebraska"
-      ],
-      "alternateCapitals": [
-        "Lincoln"
-      ],
-      "mapNumber": 14
-    },
-    {
-      "id": "ks",
-      "name": "Kansas",
-      "capital": "Topeka",
-      "alternateNames": [
-        "Kansas",
-        "State of Kansas"
-      ],
-      "alternateCapitals": [
-        "Topeka"
-      ],
-      "mapNumber": 15
     },
     {
       "id": "ok",
@@ -216,18 +177,57 @@
       "alternateCapitals": [
         "Oklahoma City"
       ],
+      "mapNumber": 13
+    },
+    {
+      "id": "ks",
+      "name": "Kansas",
+      "capital": "Topeka",
+      "alternateNames": [
+        "Kansas",
+        "State of Kansas"
+      ],
+      "alternateCapitals": [
+        "Topeka"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "ne",
+      "name": "Nebraska",
+      "capital": "Lincoln",
+      "alternateNames": [
+        "Nebraska",
+        "State of Nebraska"
+      ],
+      "alternateCapitals": [
+        "Lincoln"
+      ],
+      "mapNumber": 15
+    },
+    {
+      "id": "sd",
+      "name": "South Dakota",
+      "capital": "Pierre",
+      "alternateNames": [
+        "South Dakota",
+        "State of South Dakota"
+      ],
+      "alternateCapitals": [
+        "Pierre"
+      ],
       "mapNumber": 16
     },
     {
-      "id": "tx",
-      "name": "Texas",
-      "capital": "Austin",
+      "id": "nd",
+      "name": "North Dakota",
+      "capital": "Bismarck",
       "alternateNames": [
-        "Texas",
-        "State of Texas"
+        "North Dakota",
+        "State of North Dakota"
       ],
       "alternateCapitals": [
-        "Austin"
+        "Bismarck"
       ],
       "mapNumber": 17
     },
@@ -311,6 +311,19 @@
       "mapNumber": 23
     },
     {
+      "id": "mi",
+      "name": "Michigan",
+      "capital": "Lansing",
+      "alternateNames": [
+        "Michigan",
+        "State of Michigan"
+      ],
+      "alternateCapitals": [
+        "Lansing"
+      ],
+      "mapNumber": 24
+    },
+    {
       "id": "il",
       "name": "Illinois",
       "capital": "Springfield",
@@ -321,7 +334,7 @@
       "alternateCapitals": [
         "Springfield"
       ],
-      "mapNumber": 24
+      "mapNumber": 25
     },
     {
       "id": "in",
@@ -333,19 +346,6 @@
       ],
       "alternateCapitals": [
         "Indianapolis"
-      ],
-      "mapNumber": 25
-    },
-    {
-      "id": "mi",
-      "name": "Michigan",
-      "capital": "Lansing",
-      "alternateNames": [
-        "Michigan",
-        "State of Michigan"
-      ],
-      "alternateCapitals": [
-        "Lansing"
       ],
       "mapNumber": 26
     },
@@ -571,6 +571,19 @@
       "mapNumber": 43
     },
     {
+      "id": "ct",
+      "name": "Connecticut",
+      "capital": "Hartford",
+      "alternateNames": [
+        "Connecticut",
+        "State of Connecticut"
+      ],
+      "alternateCapitals": [
+        "Hartford"
+      ],
+      "mapNumber": 44
+    },
+    {
       "id": "ri",
       "name": "Rhode Island",
       "capital": "Providence",
@@ -581,19 +594,6 @@
       ],
       "alternateCapitals": [
         "Providence"
-      ],
-      "mapNumber": 44
-    },
-    {
-      "id": "ct",
-      "name": "Connecticut",
-      "capital": "Hartford",
-      "alternateNames": [
-        "Connecticut",
-        "State of Connecticut"
-      ],
-      "alternateCapitals": [
-        "Hartford"
       ],
       "mapNumber": 45
     },
