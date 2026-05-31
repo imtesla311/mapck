@@ -19,6 +19,10 @@
     {
       "id": "canada_provinces",
       "file": "regions/canada_provinces.json"
+    },
+    {
+      "id": "asia",
+      "file": "regions/asia.json"
     }
   ]
 }
