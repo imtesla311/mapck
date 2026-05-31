@@ -2,8 +2,8 @@
   "id": "europe",
   "name": "Europe",
   "entityLabel": "country",
-  "mapImage": "maps/europe/europe_numbered.jpg",
-  "numberedMapImage": "maps/europe/europe_numbered.jpg",
+  "mapImage": "maps/europe/europe.jpg",
+  "numberedMapImage": "maps/europe/europe.jpg",
   "questionTypes": [
     "numbered_region",
     "capital",
@@ -15,7 +15,8 @@
       "name": "Iceland",
       "capital": "Reykjavik",
       "alternateNames": [
-        "Iceland"
+        "Iceland",
+        "Republic of Iceland"
       ],
       "alternateCapitals": [
         "Reykjavik"
@@ -27,7 +28,8 @@
       "name": "Ireland",
       "capital": "Dublin",
       "alternateNames": [
-        "Ireland"
+        "Ireland",
+        "Republic of Ireland"
       ],
       "alternateCapitals": [
         "Dublin"
@@ -42,7 +44,8 @@
         "United Kingdom",
         "UK",
         "Britain",
-        "Great Britain"
+        "Great Britain",
+        "England"
       ],
       "alternateCapitals": [
         "London"
@@ -50,416 +53,232 @@
       "mapNumber": 3
     },
     {
-      "id": "pt",
-      "name": "Portugal",
-      "capital": "Lisbon",
-      "alternateNames": [
-        "Portugal"
-      ],
-      "alternateCapitals": [
-        "Lisbon"
-      ],
-      "mapNumber": 4
-    },
-    {
-      "id": "es",
-      "name": "Spain",
-      "capital": "Madrid",
-      "alternateNames": [
-        "Spain"
-      ],
-      "alternateCapitals": [
-        "Madrid"
-      ],
-      "mapNumber": 5
-    },
-    {
-      "id": "ad",
-      "name": "Andorra",
-      "capital": "Andorra la Vella",
-      "alternateNames": [
-        "Andorra"
-      ],
-      "alternateCapitals": [
-        "Andorra la Vella"
-      ],
-      "mapNumber": 6
-    },
-    {
-      "id": "fr",
-      "name": "France",
-      "capital": "Paris",
-      "alternateNames": [
-        "France"
-      ],
-      "alternateCapitals": [
-        "Paris"
-      ],
-      "mapNumber": 7
-    },
-    {
-      "id": "be",
-      "name": "Belgium",
-      "capital": "Brussels",
-      "alternateNames": [
-        "Belgium"
-      ],
-      "alternateCapitals": [
-        "Brussels"
-      ],
-      "mapNumber": 8
-    },
-    {
-      "id": "nl",
-      "name": "Netherlands",
-      "capital": "Amsterdam",
-      "alternateNames": [
-        "Netherlands"
-      ],
-      "alternateCapitals": [
-        "Amsterdam"
-      ],
-      "mapNumber": 9
-    },
-    {
-      "id": "lu",
-      "name": "Luxembourg",
-      "capital": "Luxembourg",
-      "alternateNames": [
-        "Luxembourg"
-      ],
-      "alternateCapitals": [
-        "Luxembourg"
-      ],
-      "mapNumber": 10
-    },
-    {
-      "id": "de",
-      "name": "Germany",
-      "capital": "Berlin",
-      "alternateNames": [
-        "Germany"
-      ],
-      "alternateCapitals": [
-        "Berlin"
-      ],
-      "mapNumber": 11
-    },
-    {
-      "id": "dk",
-      "name": "Denmark",
-      "capital": "Copenhagen",
-      "alternateNames": [
-        "Denmark"
-      ],
-      "alternateCapitals": [
-        "Copenhagen"
-      ],
-      "mapNumber": 12
-    },
-    {
       "id": "no",
       "name": "Norway",
       "capital": "Oslo",
       "alternateNames": [
-        "Norway"
+        "Norway",
+        "Kingdom of Norway"
       ],
       "alternateCapitals": [
         "Oslo"
       ],
-      "mapNumber": 13
+      "mapNumber": 4
     },
     {
       "id": "se",
       "name": "Sweden",
       "capital": "Stockholm",
       "alternateNames": [
-        "Sweden"
+        "Sweden",
+        "Kingdom of Sweden"
       ],
       "alternateCapitals": [
         "Stockholm"
       ],
-      "mapNumber": 14
+      "mapNumber": 5
     },
     {
       "id": "fi",
       "name": "Finland",
       "capital": "Helsinki",
       "alternateNames": [
-        "Finland"
+        "Finland",
+        "Republic of Finland"
       ],
       "alternateCapitals": [
         "Helsinki"
       ],
-      "mapNumber": 15
+      "mapNumber": 6
     },
     {
       "id": "ee",
       "name": "Estonia",
       "capital": "Tallinn",
       "alternateNames": [
-        "Estonia"
+        "Estonia",
+        "Republic of Estonia"
       ],
       "alternateCapitals": [
         "Tallinn"
       ],
-      "mapNumber": 16
+      "mapNumber": 7
     },
     {
       "id": "lv",
       "name": "Latvia",
       "capital": "Riga",
       "alternateNames": [
-        "Latvia"
+        "Latvia",
+        "Republic of Latvia"
       ],
       "alternateCapitals": [
         "Riga"
       ],
-      "mapNumber": 17
+      "mapNumber": 8
     },
     {
       "id": "lt",
       "name": "Lithuania",
       "capital": "Vilnius",
       "alternateNames": [
-        "Lithuania"
+        "Lithuania",
+        "Republic of Lithuania"
       ],
       "alternateCapitals": [
         "Vilnius"
       ],
-      "mapNumber": 18
+      "mapNumber": 9
+    },
+    {
+      "id": "dk",
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "alternateNames": [
+        "Denmark",
+        "Kingdom of Denmark"
+      ],
+      "alternateCapitals": [
+        "Copenhagen"
+      ],
+      "mapNumber": 10
     },
     {
       "id": "pl",
       "name": "Poland",
       "capital": "Warsaw",
       "alternateNames": [
-        "Poland"
+        "Poland",
+        "Republic of Poland"
       ],
       "alternateCapitals": [
         "Warsaw"
       ],
-      "mapNumber": 19
+      "mapNumber": 11
     },
     {
-      "id": "by",
-      "name": "Belarus",
-      "capital": "Minsk",
+      "id": "de",
+      "name": "Germany",
+      "capital": "Berlin",
       "alternateNames": [
-        "Belarus"
+        "Germany",
+        "Federal Republic of Germany",
+        "Deutschland"
       ],
       "alternateCapitals": [
-        "Minsk"
+        "Berlin"
       ],
-      "mapNumber": 20
+      "mapNumber": 12
     },
     {
-      "id": "cz",
-      "name": "Czechia",
-      "capital": "Prague",
+      "id": "nl",
+      "name": "Netherlands",
+      "capital": "Amsterdam",
       "alternateNames": [
-        "Czechia",
-        "Czech Republic"
+        "Netherlands",
+        "The Netherlands",
+        "Holland",
+        "Kingdom of the Netherlands"
       ],
       "alternateCapitals": [
-        "Prague"
+        "Amsterdam"
       ],
-      "mapNumber": 21
+      "mapNumber": 13
     },
     {
-      "id": "sk",
-      "name": "Slovakia",
-      "capital": "Bratislava",
+      "id": "be",
+      "name": "Belgium",
+      "capital": "Brussels",
       "alternateNames": [
-        "Slovakia"
+        "Belgium",
+        "Kingdom of Belgium"
       ],
       "alternateCapitals": [
-        "Bratislava"
+        "Brussels"
       ],
-      "mapNumber": 22
+      "mapNumber": 14
     },
     {
-      "id": "at",
-      "name": "Austria",
-      "capital": "Vienna",
+      "id": "lu",
+      "name": "Luxembourg",
+      "capital": "Luxembourg",
       "alternateNames": [
-        "Austria"
+        "Luxembourg",
+        "Grand Duchy of Luxembourg"
       ],
       "alternateCapitals": [
-        "Vienna"
+        "Luxembourg",
+        "Luxembourg City"
       ],
-      "mapNumber": 23
+      "mapNumber": 15
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "capital": "Paris",
+      "alternateNames": [
+        "France",
+        "French Republic"
+      ],
+      "alternateCapitals": [
+        "Paris"
+      ],
+      "mapNumber": 16
     },
     {
       "id": "ch",
       "name": "Switzerland",
       "capital": "Bern",
       "alternateNames": [
-        "Switzerland"
+        "Switzerland",
+        "Swiss Confederation"
       ],
       "alternateCapitals": [
-        "Bern"
+        "Bern",
+        "Berne"
       ],
-      "mapNumber": 24
+      "mapNumber": 17
     },
     {
-      "id": "li",
-      "name": "Liechtenstein",
-      "capital": "Vaduz",
+      "id": "at",
+      "name": "Austria",
+      "capital": "Vienna",
       "alternateNames": [
-        "Liechtenstein"
+        "Austria",
+        "Republic of Austria",
+        "Osterreich"
       ],
       "alternateCapitals": [
-        "Vaduz"
+        "Vienna"
       ],
-      "mapNumber": 25
+      "mapNumber": 18
     },
     {
-      "id": "mc",
-      "name": "Monaco",
-      "capital": "Monaco",
+      "id": "cz",
+      "name": "Czech Republic",
+      "capital": "Prague",
       "alternateNames": [
-        "Monaco"
+        "Czech Republic",
+        "Czechia",
+        "Czech"
       ],
       "alternateCapitals": [
-        "Monaco"
+        "Prague"
       ],
-      "mapNumber": 26
+      "mapNumber": 19
     },
     {
-      "id": "it",
-      "name": "Italy",
-      "capital": "Rome",
+      "id": "sk",
+      "name": "Slovakia",
+      "capital": "Bratislava",
       "alternateNames": [
-        "Italy"
+        "Slovakia",
+        "Slovak Republic"
       ],
       "alternateCapitals": [
-        "Rome"
+        "Bratislava"
       ],
-      "mapNumber": 27
-    },
-    {
-      "id": "sm",
-      "name": "San Marino",
-      "capital": "San Marino",
-      "alternateNames": [
-        "San Marino"
-      ],
-      "alternateCapitals": [
-        "San Marino"
-      ],
-      "mapNumber": 28
-    },
-    {
-      "id": "va",
-      "name": "Vatican City",
-      "capital": "Vatican City",
-      "alternateNames": [
-        "Vatican City",
-        "Holy See",
-        "Vatican"
-      ],
-      "alternateCapitals": [
-        "Vatican City"
-      ],
-      "mapNumber": 29
-    },
-    {
-      "id": "si",
-      "name": "Slovenia",
-      "capital": "Ljubljana",
-      "alternateNames": [
-        "Slovenia"
-      ],
-      "alternateCapitals": [
-        "Ljubljana"
-      ],
-      "mapNumber": 30
-    },
-    {
-      "id": "hr",
-      "name": "Croatia",
-      "capital": "Zagreb",
-      "alternateNames": [
-        "Croatia"
-      ],
-      "alternateCapitals": [
-        "Zagreb"
-      ],
-      "mapNumber": 31
-    },
-    {
-      "id": "ba",
-      "name": "Bosnia and Herzegovina",
-      "capital": "Sarajevo",
-      "alternateNames": [
-        "Bosnia and Herzegovina"
-      ],
-      "alternateCapitals": [
-        "Sarajevo"
-      ],
-      "mapNumber": 32
-    },
-    {
-      "id": "me",
-      "name": "Montenegro",
-      "capital": "Podgorica",
-      "alternateNames": [
-        "Montenegro"
-      ],
-      "alternateCapitals": [
-        "Podgorica"
-      ],
-      "mapNumber": 33
-    },
-    {
-      "id": "al",
-      "name": "Albania",
-      "capital": "Tirana",
-      "alternateNames": [
-        "Albania"
-      ],
-      "alternateCapitals": [
-        "Tirana"
-      ],
-      "mapNumber": 34
-    },
-    {
-      "id": "mk",
-      "name": "North Macedonia",
-      "capital": "Skopje",
-      "alternateNames": [
-        "North Macedonia",
-        "Macedonia"
-      ],
-      "alternateCapitals": [
-        "Skopje"
-      ],
-      "mapNumber": 35
-    },
-    {
-      "id": "xk",
-      "name": "Kosovo",
-      "capital": "Pristina",
-      "alternateNames": [
-        "Kosovo"
-      ],
-      "alternateCapitals": [
-        "Pristina"
-      ],
-      "mapNumber": 36
-    },
-    {
-      "id": "rs",
-      "name": "Serbia",
-      "capital": "Belgrade",
-      "alternateNames": [
-        "Serbia"
-      ],
-      "alternateCapitals": [
-        "Belgrade"
-      ],
-      "mapNumber": 37
+      "mapNumber": 20
     },
     {
       "id": "hu",
@@ -471,7 +290,7 @@
       "alternateCapitals": [
         "Budapest"
       ],
-      "mapNumber": 38
+      "mapNumber": 21
     },
     {
       "id": "ro",
@@ -483,19 +302,21 @@
       "alternateCapitals": [
         "Bucharest"
       ],
-      "mapNumber": 39
+      "mapNumber": 22
     },
     {
       "id": "md",
       "name": "Moldova",
       "capital": "Chisinau",
       "alternateNames": [
-        "Moldova"
+        "Moldova",
+        "Republic of Moldova"
       ],
       "alternateCapitals": [
+        "Chisinau",
         "Chisinau"
       ],
-      "mapNumber": 40
+      "mapNumber": 23
     },
     {
       "id": "ua",
@@ -508,115 +329,284 @@
         "Kyiv",
         "Kiev"
       ],
-      "mapNumber": 41
+      "mapNumber": 24
+    },
+    {
+      "id": "by",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "alternateNames": [
+        "Belarus",
+        "Belorussia",
+        "White Russia"
+      ],
+      "alternateCapitals": [
+        "Minsk"
+      ],
+      "mapNumber": 25
     },
     {
       "id": "ru",
       "name": "Russia",
       "capital": "Moscow",
       "alternateNames": [
-        "Russia"
+        "Russia",
+        "Russian Federation"
       ],
       "alternateCapitals": [
         "Moscow"
       ],
-      "mapNumber": 42
+      "mapNumber": 26
     },
     {
-      "id": "gr",
-      "name": "Greece",
-      "capital": "Athens",
+      "id": "es",
+      "name": "Spain",
+      "capital": "Madrid",
       "alternateNames": [
-        "Greece"
+        "Spain",
+        "Espana"
       ],
       "alternateCapitals": [
-        "Athens"
+        "Madrid"
       ],
-      "mapNumber": 43
+      "mapNumber": 27
+    },
+    {
+      "id": "pt",
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "alternateNames": [
+        "Portugal",
+        "Portuguese Republic"
+      ],
+      "alternateCapitals": [
+        "Lisbon",
+        "Lisboa"
+      ],
+      "mapNumber": 28
+    },
+    {
+      "id": "it",
+      "name": "Italy",
+      "capital": "Rome",
+      "alternateNames": [
+        "Italy",
+        "Italian Republic",
+        "Italia"
+      ],
+      "alternateCapitals": [
+        "Rome",
+        "Roma"
+      ],
+      "mapNumber": 29
+    },
+    {
+      "id": "si",
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "alternateNames": [
+        "Slovenia",
+        "Republic of Slovenia"
+      ],
+      "alternateCapitals": [
+        "Ljubljana"
+      ],
+      "mapNumber": 30
+    },
+    {
+      "id": "hr",
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "alternateNames": [
+        "Croatia",
+        "Republic of Croatia",
+        "Hrvatska"
+      ],
+      "alternateCapitals": [
+        "Zagreb"
+      ],
+      "mapNumber": 31
+    },
+    {
+      "id": "ba",
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "alternateNames": [
+        "Bosnia and Herzegovina",
+        "Bosnia & Herzegovina",
+        "Bosnia"
+      ],
+      "alternateCapitals": [
+        "Sarajevo"
+      ],
+      "mapNumber": 32
+    },
+    {
+      "id": "rs",
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "alternateNames": [
+        "Serbia",
+        "Republic of Serbia"
+      ],
+      "alternateCapitals": [
+        "Belgrade"
+      ],
+      "mapNumber": 33
+    },
+    {
+      "id": "xk",
+      "name": "Kosovo",
+      "capital": "Pristina",
+      "alternateNames": [
+        "Kosovo",
+        "Republic of Kosovo"
+      ],
+      "alternateCapitals": [
+        "Pristina",
+        "Prishtine"
+      ],
+      "mapNumber": 34
+    },
+    {
+      "id": "mk",
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "alternateNames": [
+        "North Macedonia",
+        "Macedonia",
+        "Republic of North Macedonia"
+      ],
+      "alternateCapitals": [
+        "Skopje"
+      ],
+      "mapNumber": 35
+    },
+    {
+      "id": "al",
+      "name": "Albania",
+      "capital": "Tirana",
+      "alternateNames": [
+        "Albania",
+        "Republic of Albania"
+      ],
+      "alternateCapitals": [
+        "Tirana",
+        "Tirane"
+      ],
+      "mapNumber": 36
     },
     {
       "id": "bg",
       "name": "Bulgaria",
       "capital": "Sofia",
       "alternateNames": [
-        "Bulgaria"
+        "Bulgaria",
+        "Republic of Bulgaria"
       ],
       "alternateCapitals": [
         "Sofia"
       ],
-      "mapNumber": 44
+      "mapNumber": 37
+    },
+    {
+      "id": "gr",
+      "name": "Greece",
+      "capital": "Athens",
+      "alternateNames": [
+        "Greece",
+        "Hellenic Republic"
+      ],
+      "alternateCapitals": [
+        "Athens",
+        "Athina"
+      ],
+      "mapNumber": 38
     },
     {
       "id": "tr",
       "name": "Turkey",
       "capital": "Ankara",
       "alternateNames": [
-        "Turkey"
+        "Turkey",
+        "Turkiye",
+        "Republic of Turkey"
       ],
       "alternateCapitals": [
-        "Ankara"
+        "Ankara",
+        "Angora"
       ],
-      "mapNumber": 45
+      "mapNumber": 39
     },
     {
       "id": "cy",
       "name": "Cyprus",
       "capital": "Nicosia",
       "alternateNames": [
-        "Cyprus"
+        "Cyprus",
+        "Republic of Cyprus"
       ],
       "alternateCapitals": [
-        "Nicosia"
+        "Nicosia",
+        "Lefkosia"
       ],
-      "mapNumber": 46
+      "mapNumber": 40
     },
     {
-      "id": "ge",
-      "name": "Georgia",
-      "capital": "Tbilisi",
+      "id": "sm",
+      "name": "San Marino",
+      "capital": "San Marino",
       "alternateNames": [
-        "Georgia"
+        "San Marino",
+        "Most Serene Republic of San Marino",
+        "Republic of San Marino"
       ],
       "alternateCapitals": [
-        "Tbilisi"
+        "San Marino",
+        "City of San Marino"
       ],
-      "mapNumber": 47
+      "mapNumber": 41
     },
     {
-      "id": "am",
-      "name": "Armenia",
-      "capital": "Yerevan",
+      "id": "va",
+      "name": "Vatican City",
+      "capital": "Vatican City",
       "alternateNames": [
-        "Armenia"
+        "Vatican City",
+        "Vatican",
+        "Holy See"
       ],
       "alternateCapitals": [
-        "Yerevan"
+        "Vatican City"
       ],
-      "mapNumber": 48
-    },
-    {
-      "id": "az",
-      "name": "Azerbaijan",
-      "capital": "Baku",
-      "alternateNames": [
-        "Azerbaijan"
-      ],
-      "alternateCapitals": [
-        "Baku"
-      ],
-      "mapNumber": 49
+      "mapNumber": 42
     },
     {
       "id": "mt",
       "name": "Malta",
       "capital": "Valletta",
       "alternateNames": [
-        "Malta"
+        "Malta",
+        "Republic of Malta"
       ],
       "alternateCapitals": [
         "Valletta"
       ],
-      "mapNumber": 50
+      "mapNumber": 43
+    },
+    {
+      "id": "me",
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "alternateNames": [
+        "Montenegro",
+        "Crna Gora"
+      ],
+      "alternateCapitals": [
+        "Podgorica",
+        "Titograd"
+      ],
+      "mapNumber": 44
     }
   ]
 }

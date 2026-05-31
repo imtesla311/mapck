@@ -1,6 +1,10 @@
 {
   "regions": [
     {
+      "id": "europe",
+      "file": "regions/europe.json"
+    },
+    {
       "id": "whole_africa",
       "file": "regions/whole_africa.json"
     },
