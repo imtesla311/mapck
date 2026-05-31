@@ -1,0 +1,709 @@
+{
+  "id": "asia",
+  "name": "Asia",
+  "entityLabel": "country",
+  "mapImage": "maps/asia.jpg",
+  "numberedMapImage": "maps/asia.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "tr",
+      "name": "Turkey",
+      "capital": "Ankara",
+      "alternateNames": [
+        "Turkey",
+        "Turkiye",
+        "Republic of Turkey"
+      ],
+      "alternateCapitals": [
+        "Ankara",
+        "Angora"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "ge",
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "alternateNames": [
+        "Georgia"
+      ],
+      "alternateCapitals": [
+        "Tbilisi"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "az",
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "alternateNames": [
+        "Azerbaijan",
+        "Republic of Azerbaijan"
+      ],
+      "alternateCapitals": [
+        "Baku"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "am",
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "alternateNames": [
+        "Armenia",
+        "Republic of Armenia"
+      ],
+      "alternateCapitals": [
+        "Yerevan"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "sy",
+      "name": "Syria",
+      "capital": "Damascus",
+      "alternateNames": [
+        "Syria",
+        "Syrian Arab Republic"
+      ],
+      "alternateCapitals": [
+        "Damascus"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "lb",
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "alternateNames": [
+        "Lebanon",
+        "Lebanese Republic"
+      ],
+      "alternateCapitals": [
+        "Beirut"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "cy",
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "alternateNames": [
+        "Cyprus",
+        "Republic of Cyprus"
+      ],
+      "alternateCapitals": [
+        "Nicosia",
+        "Lefkosia"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "il",
+      "name": "Israel",
+      "capital": "Jerusalem",
+      "alternateNames": [
+        "Israel",
+        "State of Israel"
+      ],
+      "alternateCapitals": [
+        "Jerusalem"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "ps",
+      "name": "Palestine",
+      "capital": "Ramallah",
+      "alternateNames": [
+        "Palestine",
+        "State of Palestine",
+        "Palestinian Territories"
+      ],
+      "alternateCapitals": [
+        "Ramallah",
+        "Ramallah and Al-Bireh",
+        "East Jerusalem"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "jo",
+      "name": "Jordan",
+      "capital": "Amman",
+      "alternateNames": [
+        "Jordan",
+        "Hashemite Kingdom of Jordan"
+      ],
+      "alternateCapitals": [
+        "Amman"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "sa",
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "alternateNames": [
+        "Saudi Arabia",
+        "Kingdom of Saudi Arabia"
+      ],
+      "alternateCapitals": [
+        "Riyadh"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "ye",
+      "name": "Yemen",
+      "capital": "Sana'a",
+      "alternateNames": [
+        "Yemen",
+        "Republic of Yemen"
+      ],
+      "alternateCapitals": [
+        "Sana'a",
+        "Sanaa",
+        "Sana"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "om",
+      "name": "Oman",
+      "capital": "Muscat",
+      "alternateNames": [
+        "Oman",
+        "Sultanate of Oman"
+      ],
+      "alternateCapitals": [
+        "Muscat"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "ae",
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "alternateNames": [
+        "United Arab Emirates",
+        "UAE",
+        "Emirates"
+      ],
+      "alternateCapitals": [
+        "Abu Dhabi",
+        "Abu Dhabi City"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "qa",
+      "name": "Qatar",
+      "capital": "Doha",
+      "alternateNames": [
+        "Qatar",
+        "State of Qatar"
+      ],
+      "alternateCapitals": [
+        "Doha"
+      ],
+      "mapNumber": 15
+    },
+    {
+      "id": "bh",
+      "name": "Bahrain",
+      "capital": "Manama",
+      "alternateNames": [
+        "Bahrain",
+        "Kingdom of Bahrain"
+      ],
+      "alternateCapitals": [
+        "Manama"
+      ],
+      "mapNumber": 16
+    },
+    {
+      "id": "kw",
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "alternateNames": [
+        "Kuwait",
+        "State of Kuwait"
+      ],
+      "alternateCapitals": [
+        "Kuwait City",
+        "Al Kuwait"
+      ],
+      "mapNumber": 17
+    },
+    {
+      "id": "iq",
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "alternateNames": [
+        "Iraq",
+        "Republic of Iraq"
+      ],
+      "alternateCapitals": [
+        "Baghdad"
+      ],
+      "mapNumber": 18
+    },
+    {
+      "id": "ir",
+      "name": "Iran",
+      "capital": "Tehran",
+      "alternateNames": [
+        "Iran",
+        "Islamic Republic of Iran",
+        "Persia"
+      ],
+      "alternateCapitals": [
+        "Tehran",
+        "Teheran"
+      ],
+      "mapNumber": 19
+    },
+    {
+      "id": "tm",
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "alternateNames": [
+        "Turkmenistan"
+      ],
+      "alternateCapitals": [
+        "Ashgabat",
+        "Ashkhabad"
+      ],
+      "mapNumber": 20
+    },
+    {
+      "id": "uz",
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "alternateNames": [
+        "Uzbekistan",
+        "Republic of Uzbekistan"
+      ],
+      "alternateCapitals": [
+        "Tashkent"
+      ],
+      "mapNumber": 21
+    },
+    {
+      "id": "kz",
+      "name": "Kazakhstan",
+      "capital": "Astana",
+      "alternateNames": [
+        "Kazakhstan",
+        "Republic of Kazakhstan"
+      ],
+      "alternateCapitals": [
+        "Astana",
+        "Nur-Sultan"
+      ],
+      "mapNumber": 22
+    },
+    {
+      "id": "kg",
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek",
+      "alternateNames": [
+        "Kyrgyzstan",
+        "Kyrgyz Republic"
+      ],
+      "alternateCapitals": [
+        "Bishkek",
+        "Biskek"
+      ],
+      "mapNumber": 23
+    },
+    {
+      "id": "tj",
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "alternateNames": [
+        "Tajikistan",
+        "Republic of Tajikistan"
+      ],
+      "alternateCapitals": [
+        "Dushanbe",
+        "Duschanbe"
+      ],
+      "mapNumber": 24
+    },
+    {
+      "id": "af",
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "alternateNames": [
+        "Afghanistan",
+        "Islamic Emirate of Afghanistan"
+      ],
+      "alternateCapitals": [
+        "Kabul"
+      ],
+      "mapNumber": 25
+    },
+    {
+      "id": "pk",
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "alternateNames": [
+        "Pakistan",
+        "Islamic Republic of Pakistan"
+      ],
+      "alternateCapitals": [
+        "Islamabad"
+      ],
+      "mapNumber": 26
+    },
+    {
+      "id": "in",
+      "name": "India",
+      "capital": "New Delhi",
+      "alternateNames": [
+        "India",
+        "Republic of India",
+        "Bharat"
+      ],
+      "alternateCapitals": [
+        "New Delhi",
+        "Delhi"
+      ],
+      "mapNumber": 27
+    },
+    {
+      "id": "lk",
+      "name": "Sri Lanka",
+      "capital": "Colombo",
+      "alternateNames": [
+        "Sri Lanka",
+        "Democratic Socialist Republic of Sri Lanka",
+        "Ceylon"
+      ],
+      "alternateCapitals": [
+        "Colombo",
+        "Sri Jayawardenepura Kotte",
+        "Kotte"
+      ],
+      "mapNumber": 28
+    },
+    {
+      "id": "mv",
+      "name": "Maldives",
+      "capital": "Male",
+      "alternateNames": [
+        "Maldives",
+        "Republic of Maldives",
+        "Maldive Islands"
+      ],
+      "alternateCapitals": [
+        "Male",
+        "Male'"
+      ],
+      "mapNumber": 29
+    },
+    {
+      "id": "np",
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "alternateNames": [
+        "Nepal",
+        "Federal Democratic Republic of Nepal"
+      ],
+      "alternateCapitals": [
+        "Kathmandu"
+      ],
+      "mapNumber": 30
+    },
+    {
+      "id": "bt",
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "alternateNames": [
+        "Bhutan",
+        "Kingdom of Bhutan"
+      ],
+      "alternateCapitals": [
+        "Thimphu",
+        "Thimbu"
+      ],
+      "mapNumber": 31
+    },
+    {
+      "id": "bd",
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "alternateNames": [
+        "Bangladesh",
+        "People's Republic of Bangladesh"
+      ],
+      "alternateCapitals": [
+        "Dhaka",
+        "Dacca"
+      ],
+      "mapNumber": 32
+    },
+    {
+      "id": "mm",
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "alternateNames": [
+        "Myanmar",
+        "Republic of the Union of Myanmar",
+        "Burma"
+      ],
+      "alternateCapitals": [
+        "Naypyidaw",
+        "Nay Pyi Taw",
+        "Rangoon",
+        "Yangon"
+      ],
+      "mapNumber": 33
+    },
+    {
+      "id": "th",
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "alternateNames": [
+        "Thailand",
+        "Kingdom of Thailand",
+        "Siam"
+      ],
+      "alternateCapitals": [
+        "Bangkok",
+        "Krung Thep"
+      ],
+      "mapNumber": 34
+    },
+    {
+      "id": "my",
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "alternateNames": [
+        "Malaysia"
+      ],
+      "alternateCapitals": [
+        "Kuala Lumpur",
+        "Putrajaya"
+      ],
+      "mapNumber": 35
+    },
+    {
+      "id": "sg",
+      "name": "Singapore",
+      "capital": "Singapore",
+      "alternateNames": [
+        "Singapore",
+        "Republic of Singapore"
+      ],
+      "alternateCapitals": [
+        "Singapore",
+        "Singapore City"
+      ],
+      "mapNumber": 36
+    },
+    {
+      "id": "id",
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "alternateNames": [
+        "Indonesia",
+        "Republic of Indonesia"
+      ],
+      "alternateCapitals": [
+        "Jakarta"
+      ],
+      "mapNumber": 37
+    },
+    {
+      "id": "tl",
+      "name": "Timor-Leste",
+      "capital": "Dili",
+      "alternateNames": [
+        "Timor-Leste",
+        "East Timor",
+        "Democratic Republic of Timor-Leste"
+      ],
+      "alternateCapitals": [
+        "Dili"
+      ],
+      "mapNumber": 38
+    },
+    {
+      "id": "bn",
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "alternateNames": [
+        "Brunei",
+        "Nation of Brunei",
+        "Brunei Darussalam"
+      ],
+      "alternateCapitals": [
+        "Bandar Seri Begawan"
+      ],
+      "mapNumber": 39
+    },
+    {
+      "id": "ph",
+      "name": "Philippines",
+      "capital": "Manila",
+      "alternateNames": [
+        "Philippines",
+        "Republic of the Philippines"
+      ],
+      "alternateCapitals": [
+        "Manila"
+      ],
+      "mapNumber": 40
+    },
+    {
+      "id": "kh",
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "alternateNames": [
+        "Cambodia",
+        "Kingdom of Cambodia",
+        "Kampuchea"
+      ],
+      "alternateCapitals": [
+        "Phnom Penh"
+      ],
+      "mapNumber": 41
+    },
+    {
+      "id": "vn",
+      "name": "Vietnam",
+      "capital": "Hanoi",
+      "alternateNames": [
+        "Vietnam",
+        "Viet Nam",
+        "Socialist Republic of Vietnam"
+      ],
+      "alternateCapitals": [
+        "Hanoi"
+      ],
+      "mapNumber": 42
+    },
+    {
+      "id": "la",
+      "name": "Laos",
+      "capital": "Vientiane",
+      "alternateNames": [
+        "Laos",
+        "Lao PDR",
+        "Lao People's Democratic Republic"
+      ],
+      "alternateCapitals": [
+        "Vientiane",
+        "Viangchan"
+      ],
+      "mapNumber": 43
+    },
+    {
+      "id": "tw",
+      "name": "Taiwan",
+      "capital": "Taipei",
+      "alternateNames": [
+        "Taiwan",
+        "Republic of China",
+        "Chinese Taipei"
+      ],
+      "alternateCapitals": [
+        "Taipei",
+        "Taipei City"
+      ],
+      "mapNumber": 44
+    },
+    {
+      "id": "cn",
+      "name": "China",
+      "capital": "Beijing",
+      "alternateNames": [
+        "China",
+        "People's Republic of China",
+        "PRC"
+      ],
+      "alternateCapitals": [
+        "Beijing",
+        "Peking"
+      ],
+      "mapNumber": 45
+    },
+    {
+      "id": "kr",
+      "name": "South Korea",
+      "capital": "Seoul",
+      "alternateNames": [
+        "South Korea",
+        "Republic of Korea",
+        "Korea"
+      ],
+      "alternateCapitals": [
+        "Seoul"
+      ],
+      "mapNumber": 46
+    },
+    {
+      "id": "kp",
+      "name": "North Korea",
+      "capital": "Pyongyang",
+      "alternateNames": [
+        "North Korea",
+        "Democratic People's Republic of Korea",
+        "DPRK"
+      ],
+      "alternateCapitals": [
+        "Pyongyang"
+      ],
+      "mapNumber": 47
+    },
+    {
+      "id": "jp",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "alternateNames": [
+        "Japan",
+        "State of Japan",
+        "Nippon",
+        "Nihon"
+      ],
+      "alternateCapitals": [
+        "Tokyo"
+      ],
+      "mapNumber": 48
+    },
+    {
+      "id": "mn",
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar",
+      "alternateNames": [
+        "Mongolia"
+      ],
+      "alternateCapitals": [
+        "Ulaanbaatar",
+        "Ulan Bator"
+      ],
+      "mapNumber": 49
+    },
+    {
+      "id": "ru_asia",
+      "name": "Russia",
+      "capital": "Moscow",
+      "alternateNames": [
+        "Russia",
+        "Russian Federation"
+      ],
+      "alternateCapitals": [
+        "Moscow"
+      ],
+      "mapNumber": 50
+    }
+  ]
+}
