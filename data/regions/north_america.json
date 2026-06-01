@@ -1,0 +1,414 @@
+{
+  "id": "north_america",
+  "name": "North America",
+  "entityLabel": "country",
+  "mapImage": "maps/north america.jpg",
+  "numberedMapImage": "maps/north america.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "ca",
+      "name": "Canada",
+      "capital": "Ottawa",
+      "alternateNames": [
+        "Canada"
+      ],
+      "alternateCapitals": [
+        "Ottawa"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "us",
+      "name": "United States of America",
+      "capital": "Washington D.C.",
+      "alternateNames": [
+        "United States of America",
+        "United States",
+        "USA",
+        "US",
+        "America"
+      ],
+      "alternateCapitals": [
+        "Washington D.C.",
+        "Washington DC",
+        "Washington"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "mx",
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "alternateNames": [
+        "Mexico",
+        "United Mexican States"
+      ],
+      "alternateCapitals": [
+        "Mexico City",
+        "Ciudad de Mexico"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "gt",
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "alternateNames": [
+        "Guatemala",
+        "Republic of Guatemala"
+      ],
+      "alternateCapitals": [
+        "Guatemala City"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "bz",
+      "name": "Belize",
+      "capital": "Belmopan",
+      "alternateNames": [
+        "Belize"
+      ],
+      "alternateCapitals": [
+        "Belmopan"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "sv",
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "alternateNames": [
+        "El Salvador",
+        "Republic of El Salvador"
+      ],
+      "alternateCapitals": [
+        "San Salvador"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "hn",
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "alternateNames": [
+        "Honduras",
+        "Republic of Honduras"
+      ],
+      "alternateCapitals": [
+        "Tegucigalpa"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "ni",
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "alternateNames": [
+        "Nicaragua",
+        "Republic of Nicaragua"
+      ],
+      "alternateCapitals": [
+        "Managua"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "cr",
+      "name": "Costa Rica",
+      "capital": "San Jose",
+      "alternateNames": [
+        "Costa Rica",
+        "Republic of Costa Rica"
+      ],
+      "alternateCapitals": [
+        "San Jose",
+        "San Jose"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "pa",
+      "name": "Panama",
+      "capital": "Panama City",
+      "alternateNames": [
+        "Panama",
+        "Republic of Panama"
+      ],
+      "alternateCapitals": [
+        "Panama City",
+        "Ciudad de Panama"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "cu",
+      "name": "Cuba",
+      "capital": "Havana",
+      "alternateNames": [
+        "Cuba",
+        "Republic of Cuba"
+      ],
+      "alternateCapitals": [
+        "Havana",
+        "La Habana"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "jm",
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "alternateNames": [
+        "Jamaica"
+      ],
+      "alternateCapitals": [
+        "Kingston"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "ht",
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "alternateNames": [
+        "Haiti",
+        "Republic of Haiti"
+      ],
+      "alternateCapitals": [
+        "Port-au-Prince"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "do",
+      "name": "Dominican Republic",
+      "capital": "Santo Domingo",
+      "alternateNames": [
+        "Dominican Republic",
+        "DR"
+      ],
+      "alternateCapitals": [
+        "Santo Domingo",
+        "Santo Domingo"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "gd",
+      "name": "Grenada",
+      "capital": "St. George's",
+      "alternateNames": [
+        "Grenada"
+      ],
+      "alternateCapitals": [
+        "St. George's",
+        "Saint George's",
+        "St Georges"
+      ],
+      "mapNumber": 15,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "bb",
+      "name": "Barbados",
+      "capital": "Bridgetown",
+      "alternateNames": [
+        "Barbados"
+      ],
+      "alternateCapitals": [
+        "Bridgetown"
+      ],
+      "mapNumber": 16,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "vc",
+      "name": "St. Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "alternateNames": [
+        "St. Vincent and the Grenadines",
+        "Saint Vincent and the Grenadines",
+        "St Vincent"
+      ],
+      "alternateCapitals": [
+        "Kingstown"
+      ],
+      "mapNumber": 17,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "lc",
+      "name": "St. Lucia",
+      "capital": "Castries",
+      "alternateNames": [
+        "St. Lucia",
+        "Saint Lucia"
+      ],
+      "alternateCapitals": [
+        "Castries"
+      ],
+      "mapNumber": 18,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "mq",
+      "name": "Martinique",
+      "capital": "Fort-de-France",
+      "alternateNames": [
+        "Martinique"
+      ],
+      "alternateCapitals": [
+        "Fort-de-France"
+      ],
+      "mapNumber": 19,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "dm",
+      "name": "Dominica",
+      "capital": "Roseau",
+      "alternateNames": [
+        "Dominica",
+        "Commonwealth of Dominica"
+      ],
+      "alternateCapitals": [
+        "Roseau"
+      ],
+      "mapNumber": 20,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "gp",
+      "name": "Guadeloupe",
+      "capital": "Basse-Terre",
+      "alternateNames": [
+        "Guadeloupe"
+      ],
+      "alternateCapitals": [
+        "Basse-Terre"
+      ],
+      "mapNumber": 21,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "ms",
+      "name": "Montserrat",
+      "capital": "Brades",
+      "alternateNames": [
+        "Montserrat"
+      ],
+      "alternateCapitals": [
+        "Brades",
+        "Plymouth"
+      ],
+      "mapNumber": 22,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "kn",
+      "name": "St. Kitts and Nevis",
+      "capital": "Basseterre",
+      "alternateNames": [
+        "St. Kitts and Nevis",
+        "Saint Kitts and Nevis",
+        "Federation of Saint Kitts and Nevis"
+      ],
+      "alternateCapitals": [
+        "Basseterre"
+      ],
+      "mapNumber": 23,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "ag",
+      "name": "Antigua and Barbuda",
+      "capital": "St. John's",
+      "alternateNames": [
+        "Antigua and Barbuda"
+      ],
+      "alternateCapitals": [
+        "St. John's",
+        "Saint John's",
+        "St Johns"
+      ],
+      "mapNumber": 24,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "ai",
+      "name": "Anguilla",
+      "capital": "The Valley",
+      "alternateNames": [
+        "Anguilla"
+      ],
+      "alternateCapitals": [
+        "The Valley"
+      ],
+      "mapNumber": 25,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "vg",
+      "name": "British Virgin Islands",
+      "capital": "Road Town",
+      "alternateNames": [
+        "British Virgin Islands",
+        "BVI",
+        "Virgin Islands"
+      ],
+      "alternateCapitals": [
+        "Road Town"
+      ],
+      "mapNumber": 26,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    },
+    {
+      "id": "vi",
+      "name": "U.S. Virgin Islands",
+      "capital": "Charlotte Amalie",
+      "alternateNames": [
+        "U.S. Virgin Islands",
+        "US Virgin Islands",
+        "United States Virgin Islands",
+        "American Virgin Islands"
+      ],
+      "alternateCapitals": [
+        "Charlotte Amalie"
+      ],
+      "mapNumber": 27,
+      "questionImages": {
+        "numbered_region": "maps/north_america_caribbean.jpg"
+      }
+    }
+  ]
+}

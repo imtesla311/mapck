@@ -1,0 +1,342 @@
+{
+  "id": "oceania",
+  "name": "Oceania",
+  "entityLabel": "country",
+  "mapImage": "maps/oceania.jpg",
+  "numberedMapImage": "maps/oceania.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "mp",
+      "name": "Northern Mariana Islands",
+      "capital": "Saipan",
+      "alternateNames": [
+        "Northern Mariana Islands",
+        "Commonwealth of the Northern Mariana Islands",
+        "CNMI"
+      ],
+      "alternateCapitals": [
+        "Saipan"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "gu",
+      "name": "Guam",
+      "capital": "Hagatna",
+      "alternateNames": [
+        "Guam"
+      ],
+      "alternateCapitals": [
+        "Hagatna",
+        "Hagatna"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "pw",
+      "name": "Palau",
+      "capital": "Ngerulmud",
+      "alternateNames": [
+        "Palau",
+        "Republic of Palau",
+        "Belau"
+      ],
+      "alternateCapitals": [
+        "Ngerulmud",
+        "Koror"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "fm",
+      "name": "Micronesia",
+      "capital": "Palikir",
+      "alternateNames": [
+        "Micronesia",
+        "Federated States of Micronesia",
+        "FSM"
+      ],
+      "alternateCapitals": [
+        "Palikir"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "pg",
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "alternateNames": [
+        "Papua New Guinea",
+        "PNG"
+      ],
+      "alternateCapitals": [
+        "Port Moresby"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "au",
+      "name": "Australia",
+      "capital": "Canberra",
+      "alternateNames": [
+        "Australia",
+        "Commonwealth of Australia"
+      ],
+      "alternateCapitals": [
+        "Canberra"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "nz",
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "alternateNames": [
+        "New Zealand",
+        "Aotearoa"
+      ],
+      "alternateCapitals": [
+        "Wellington"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "mh",
+      "name": "Marshall Islands",
+      "capital": "Majuro",
+      "alternateNames": [
+        "Marshall Islands",
+        "Republic of the Marshall Islands"
+      ],
+      "alternateCapitals": [
+        "Majuro"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "nr",
+      "name": "Nauru",
+      "capital": "Yaren",
+      "alternateNames": [
+        "Nauru",
+        "Republic of Nauru"
+      ],
+      "alternateCapitals": [
+        "Yaren",
+        "Yaren District"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "sb",
+      "name": "Solomon Islands",
+      "capital": "Honiara",
+      "alternateNames": [
+        "Solomon Islands"
+      ],
+      "alternateCapitals": [
+        "Honiara"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "vu",
+      "name": "Vanuatu",
+      "capital": "Port Vila",
+      "alternateNames": [
+        "Vanuatu",
+        "Republic of Vanuatu"
+      ],
+      "alternateCapitals": [
+        "Port Vila",
+        "Vila"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "nc",
+      "name": "New Caledonia",
+      "capital": "Noumea",
+      "alternateNames": [
+        "New Caledonia"
+      ],
+      "alternateCapitals": [
+        "Noumea"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "ki",
+      "name": "Kiribati",
+      "capital": "South Tarawa",
+      "alternateNames": [
+        "Kiribati",
+        "Republic of Kiribati"
+      ],
+      "alternateCapitals": [
+        "South Tarawa",
+        "Tarawa"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "tv",
+      "name": "Tuvalu",
+      "capital": "Funafuti",
+      "alternateNames": [
+        "Tuvalu"
+      ],
+      "alternateCapitals": [
+        "Funafuti"
+      ],
+      "mapNumber": 14
+    },
+    {
+      "id": "fj",
+      "name": "Fiji",
+      "capital": "Suva",
+      "alternateNames": [
+        "Fiji",
+        "Republic of Fiji"
+      ],
+      "alternateCapitals": [
+        "Suva"
+      ],
+      "mapNumber": 15
+    },
+    {
+      "id": "wf",
+      "name": "Wallis and Futuna",
+      "capital": "Mata-Utu",
+      "alternateNames": [
+        "Wallis and Futuna"
+      ],
+      "alternateCapitals": [
+        "Mata-Utu",
+        "Mata Utu"
+      ],
+      "mapNumber": 16
+    },
+    {
+      "id": "tk",
+      "name": "Tokelau",
+      "capital": "Nukunonu",
+      "alternateNames": [
+        "Tokelau"
+      ],
+      "alternateCapitals": [
+        "Nukunonu",
+        "Fakaofo",
+        "Atafu"
+      ],
+      "mapNumber": 17
+    },
+    {
+      "id": "ws",
+      "name": "Samoa",
+      "capital": "Apia",
+      "alternateNames": [
+        "Samoa",
+        "Independent State of Samoa"
+      ],
+      "alternateCapitals": [
+        "Apia"
+      ],
+      "mapNumber": 18
+    },
+    {
+      "id": "to",
+      "name": "Tonga",
+      "capital": "Nuku'alofa",
+      "alternateNames": [
+        "Tonga",
+        "Kingdom of Tonga"
+      ],
+      "alternateCapitals": [
+        "Nuku'alofa",
+        "Nukualofa"
+      ],
+      "mapNumber": 19
+    },
+    {
+      "id": "as",
+      "name": "American Samoa",
+      "capital": "Pago Pago",
+      "alternateNames": [
+        "American Samoa"
+      ],
+      "alternateCapitals": [
+        "Pago Pago"
+      ],
+      "mapNumber": 20
+    },
+    {
+      "id": "nu",
+      "name": "Niue",
+      "capital": "Alofi",
+      "alternateNames": [
+        "Niue"
+      ],
+      "alternateCapitals": [
+        "Alofi"
+      ],
+      "mapNumber": 21
+    },
+    {
+      "id": "ck",
+      "name": "Cook Islands",
+      "capital": "Avarua",
+      "alternateNames": [
+        "Cook Islands"
+      ],
+      "alternateCapitals": [
+        "Avarua"
+      ],
+      "mapNumber": 22
+    },
+    {
+      "id": "hi",
+      "name": "Hawaii",
+      "capital": "Honolulu",
+      "alternateNames": [
+        "Hawaii",
+        "Big Island"
+      ],
+      "alternateCapitals": [
+        "Honolulu"
+      ],
+      "mapNumber": 23
+    },
+    {
+      "id": "pf",
+      "name": "French Polynesia",
+      "capital": "Papeete",
+      "alternateNames": [
+        "French Polynesia",
+        "Tahiti"
+      ],
+      "alternateCapitals": [
+        "Papeete"
+      ],
+      "mapNumber": 24
+    },
+    {
+      "id": "pn",
+      "name": "Pitcairn Islands",
+      "capital": "Adamstown",
+      "alternateNames": [
+        "Pitcairn Islands",
+        "Pitcairn"
+      ],
+      "alternateCapitals": [
+        "Adamstown"
+      ],
+      "mapNumber": 25
+    }
+  ]
+}
