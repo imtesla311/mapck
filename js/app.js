@@ -41,6 +41,11 @@ class App {
         try {
             await this.regionManager.loadRegions();
             this.renderRegionSelector();
+            const lastUpdated = this.regionManager.lastUpdated;
+            if (lastUpdated) {
+                const el = document.getElementById('last-updated');
+                el.textContent = `Quiz data last updated: ${lastUpdated}`;
+            }
         } catch (error) {
             console.error('Failed to load regions:', error);
             this.showError('Failed to load region data. Please refresh the page.');
