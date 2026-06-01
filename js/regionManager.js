@@ -39,6 +39,7 @@ class RegionManager {
         }
 
         const data = await response.json();
+        this.lastUpdated = data.lastUpdated || null;
         const entries = Array.isArray(data.regions) ? data.regions : [];
         const regionResponses = await Promise.all(
             entries.map(async ({ id, file }) => {

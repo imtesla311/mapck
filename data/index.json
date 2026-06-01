@@ -1,4 +1,5 @@
 {
+  "lastUpdated": "2026-05-31",
   "regions": [
     {
       "id": "europe",
@@ -23,6 +24,18 @@
     {
       "id": "asia",
       "file": "regions/asia.json"
+    },
+    {
+      "id": "oceania",
+      "file": "regions/oceania.json"
+    },
+    {
+      "id": "north_america",
+      "file": "regions/north_america.json"
+    },
+    {
+      "id": "south_america",
+      "file": "regions/south_america.json"
     }
   ]
 }

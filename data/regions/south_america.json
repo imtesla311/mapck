@@ -1,0 +1,204 @@
+{
+  "id": "south_america",
+  "name": "South America",
+  "entityLabel": "country",
+  "mapImage": "maps/south america.jpg",
+  "numberedMapImage": "maps/south america.jpg",
+  "questionTypes": [
+    "numbered_region",
+    "capital",
+    "reverse_capital"
+  ],
+  "countries": [
+    {
+      "id": "co",
+      "name": "Colombia",
+      "capital": "Bogota",
+      "alternateNames": [
+        "Colombia",
+        "Republic of Colombia"
+      ],
+      "alternateCapitals": [
+        "Bogota",
+        "Bogota",
+        "Santa Fe de Bogota"
+      ],
+      "mapNumber": 1
+    },
+    {
+      "id": "ve",
+      "name": "Venezuela",
+      "capital": "Caracas",
+      "alternateNames": [
+        "Venezuela",
+        "Bolivarian Republic of Venezuela"
+      ],
+      "alternateCapitals": [
+        "Caracas"
+      ],
+      "mapNumber": 2
+    },
+    {
+      "id": "gy",
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "alternateNames": [
+        "Guyana",
+        "Co-operative Republic of Guyana"
+      ],
+      "alternateCapitals": [
+        "Georgetown"
+      ],
+      "mapNumber": 3
+    },
+    {
+      "id": "sr",
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "alternateNames": [
+        "Suriname",
+        "Republic of Suriname"
+      ],
+      "alternateCapitals": [
+        "Paramaribo"
+      ],
+      "mapNumber": 4
+    },
+    {
+      "id": "gf",
+      "name": "French Guiana",
+      "capital": "Cayenne",
+      "alternateNames": [
+        "French Guiana",
+        "Guyane"
+      ],
+      "alternateCapitals": [
+        "Cayenne"
+      ],
+      "mapNumber": 5
+    },
+    {
+      "id": "ec",
+      "name": "Ecuador",
+      "capital": "Quito",
+      "alternateNames": [
+        "Ecuador",
+        "Republic of Ecuador"
+      ],
+      "alternateCapitals": [
+        "Quito"
+      ],
+      "mapNumber": 6
+    },
+    {
+      "id": "pe",
+      "name": "Peru",
+      "capital": "Lima",
+      "alternateNames": [
+        "Peru",
+        "Republic of Peru"
+      ],
+      "alternateCapitals": [
+        "Lima"
+      ],
+      "mapNumber": 7
+    },
+    {
+      "id": "bo",
+      "name": "Bolivia",
+      "capital": "Sucre",
+      "alternateNames": [
+        "Bolivia",
+        "Plurinational State of Bolivia"
+      ],
+      "alternateCapitals": [
+        "Sucre",
+        "La Paz"
+      ],
+      "mapNumber": 8
+    },
+    {
+      "id": "br",
+      "name": "Brazil",
+      "capital": "Brasilia",
+      "alternateNames": [
+        "Brazil",
+        "Federative Republic of Brazil",
+        "Brasil"
+      ],
+      "alternateCapitals": [
+        "Brasilia",
+        "Brasilia"
+      ],
+      "mapNumber": 9
+    },
+    {
+      "id": "py",
+      "name": "Paraguay",
+      "capital": "Asuncion",
+      "alternateNames": [
+        "Paraguay",
+        "Republic of Paraguay"
+      ],
+      "alternateCapitals": [
+        "Asuncion",
+        "Asuncion"
+      ],
+      "mapNumber": 10
+    },
+    {
+      "id": "cl",
+      "name": "Chile",
+      "capital": "Santiago",
+      "alternateNames": [
+        "Chile",
+        "Republic of Chile"
+      ],
+      "alternateCapitals": [
+        "Santiago",
+        "Santiago de Chile"
+      ],
+      "mapNumber": 11
+    },
+    {
+      "id": "ar",
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "alternateNames": [
+        "Argentina",
+        "Argentine Republic"
+      ],
+      "alternateCapitals": [
+        "Buenos Aires"
+      ],
+      "mapNumber": 12
+    },
+    {
+      "id": "uy",
+      "name": "Uruguay",
+      "capital": "Montevideo",
+      "alternateNames": [
+        "Uruguay",
+        "Oriental Republic of Uruguay"
+      ],
+      "alternateCapitals": [
+        "Montevideo"
+      ],
+      "mapNumber": 13
+    },
+    {
+      "id": "tt",
+      "name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "alternateNames": [
+        "Trinidad and Tobago",
+        "Trinidad & Tobago",
+        "Republic of Trinidad and Tobago"
+      ],
+      "alternateCapitals": [
+        "Port of Spain"
+      ],
+      "mapNumber": 14
+    }
+  ]
+}

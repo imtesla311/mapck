@@ -41,6 +41,11 @@ class App {
         try {
             await this.regionManager.loadRegions();
             this.renderRegionSelector();
+            const lastUpdated = this.regionManager.lastUpdated;
+            if (lastUpdated) {
+                const el = document.getElementById('last-updated');
+                el.textContent = `Quiz data last updated: ${lastUpdated}`;
+            }
         } catch (error) {
             console.error('Failed to load regions:', error);
             this.showError('Failed to load region data. Please refresh the page.');
@@ -218,14 +223,14 @@ class App {
             // Force image reload by adding timestamp to prevent caching
             const imageUrl = question.image + '?t=' + Date.now();
             this.currentModalImageSrc = imageUrl;
-            mapImage.src = imageUrl;
-            mapImage.onerror = function() {
-                console.error('Failed to load image:', question.image);
-            };
             mapImage.onload = function() {
-                // Show image after it loads
                 mapImage.style.display = 'block';
             };
+            mapImage.onerror = function() {
+                console.error('Failed to load image:', question.image);
+                mapImage.style.display = 'block';
+            };
+            mapImage.src = imageUrl;
         } else {
             // Hide image if no image for this question
             mapImage.style.display = 'none';
